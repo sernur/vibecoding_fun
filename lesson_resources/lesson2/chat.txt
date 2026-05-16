@@ -1,0 +1,34 @@
+1	00:55:29	neslihan:	Codex'te sanırım token başına charge layacakmış, OpenAI gibi
+2	00:59:08	Omer:	Hocam promptları chat'e yazsanız biz de deneyelim ne kadar farklı sonuçlar çıkacak diye
+3	01:02:36	Emre Kesici:	https://wisprflow.ai/ voice dictation için kolay olabilir.
+4	01:05:33	Fevzi:	orta
+5	01:07:02	Ali:	spec ya da prd
+6	01:07:13	Nese Basaran:	environment gitignore'u
+7	01:07:18	Fevzi:	dil
+8	01:10:29	Ali K.:	interrupt ettiğimiz command, context'ten siliniyor mu? Mesela bir command verdik bir süre geçti, model üzerinde çalıştı. Fakat, sonrasında vazgeçip durdurduk.
+9	01:10:35	Fevzi:	Tam ekran yapabilir miyiz?
+10	01:27:06	ayse:	Mars'a gezi planla diyince ne diyor mesela?
+11	01:28:18	neslihan:	yansıtma
+12	01:42:24	Ekrem:	/init oluştururken xhigh kullanmak daha mı iyi?
+13	01:58:55	Fevzi:	Aynı projede branch based Claude.md kullandınız mı hiç?
+14	02:09:54	Sezer Emer:	Hocam, claude.ai/upgrade sayfasında Claude Pro paketinde Claude Code desteği var gibi görünüyor, bu offer gibi bir şey midir yoksa, farklı bir durum mudur?
+15	02:17:09	Omer:	Geri getirdiler Pro'ya Claude Code
+16	02:18:42	ayse:	Teşekkürler
+17	02:18:53	Mehmet Ozbilgin:	Çok teşekkürler
+18	02:19:04	Sezer Emer:	Reacted to "Geri getirdiler Pro'ya Claude Code" with 👍
+19	02:19:05	Ekrem:	Teşekkür ediyoruz
+20	02:19:09	Yavuz:	Çok güzel oldu bence, teşekkür ederiz
+21	02:19:44	bozaslan:	Teşekkürler hocam 👏
+22	02:20:54	Helin Ozgu:	Teşekkürler!
+23	02:21:16	Emine:	Videoyu paylaşacak mısınız?
+24	02:21:25	H.Yigit:	Teşekkürler
+25	02:21:41	Guner:	Teşekkür ederiz
+26	02:21:52	Fevzi:	Teşekkür ederim
+27	02:21:56	Sezer Emer:	Teşekkürler
+28	02:22:23	Emine:	Bu haftanınkını ben yapabilirim
+29	02:22:31	Ekrem:	Reacted to "Bu haftanınkını ben ..." with 👍
+30	02:22:41	Yousef K:	Teşekkürler hocam, ayrılmam gerekiyor.
+31	02:23:39	Yavuz:	Teşekkürler, benim de ayrılmam gerekiyor
+32	02:23:51	Fevzi:	Güzel oldu
+33	02:23:59	sahinde dogruer:	Çok teşekkürler, ayrılmam gerekiyor, benim de iyi günler
+34	02:24:10	Oguzhan C.:	https://forms.gle/MX69MFx8NrbhYmRz8

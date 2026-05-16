@@ -1,0 +1,2293 @@
+00:00:00.000 --> 00:00:01.000
+Record'a tıkladı.
+
+00:00:01.000 --> 00:00:03.000
+Mor. İçerisinde 3 tane nokta var.
+
+00:00:03.000 --> 00:00:15.000
+Teşekkürler. Hatırlatma şimdi. Ee, Claude Code kurulu olduğu zaman, arkadaşlar, şimdi 2 tane kullanım yöntemimiz var. Bir, terminal.
+
+00:00:15.000 --> 00:00:22.000
+Biz terminal kullanacağız. Burada. Ama bir de şurada. Extension, şunlara gelirseniz eğer.
+
+00:00:22.000 --> 00:00:30.000
+Şu Claude Code'u. Şunu ya da Codex extension'ı da böyle arayıp, işte Claude Code ya da Codex arayıp bunu kurabilirsiniz.
+
+00:00:30.000 --> 00:00:39.000
+Bunu kurduğunuzda, size şöyle bir şey geliyor. Açılmaya başlıyor artık.
+
+00:00:39.000 --> 00:00:43.000
+Buradan yeni bir session başlatıp kendiniz prompt verip çalıştırabilir hale geliyorsunuz.
+
+00:00:43.000 --> 00:00:53.000
+Buradan. Ben bunu kullanmıyorum. Ama benim bazı arkadaşlarım bunu tercih ediyorlar. Yani komutu buradan verip bazı işte.
+
+00:00:53.000 --> 00:00:58.000
+Şeylere buradan erişmek, özelliklere buradan erişmek. Bütün her şeye buradan.
+
+00:00:58.000 --> 00:01:05.000
+İşte ayarları, şunları ayarlamak vesaire. Bunu kullanabilirsiniz. Ee, yine aynı şekilde Codex'in de.
+
+00:01:05.000 --> 00:01:08.000
+Ee.
+
+00:01:08.000 --> 00:01:15.000
+Codex'i de açayım. Daha doğrusu, şöyle yapalım.
+
+00:01:15.000 --> 00:01:25.000
+Büyük olduğu için olmayacak.
+
+00:01:25.000 --> 00:01:38.000
+Codex aslında Codex'te değil. Dosya açmam gerekiyor herhalde.
+
+00:01:38.000 --> 00:01:47.000
+Şurada yine Codex başlatabilirsiniz. Burada ilk önce sizin login olmanızı isteyecek.
+
+00:01:47.000 --> 00:01:59.000
+Login olduktan sonra artık buradan soru sorabilir hale geleceksiniz. Bunun da lokalde çalışma ve cloud'da çalışma ile alakalı değişik modları var.
+
+00:01:59.000 --> 00:02:04.000
+Birini seçip öyle kullanabilirsiniz.
+
+00:02:04.000 --> 00:02:12.000
+Ben. Ee size terminal üzerinden anlatacağım. Ve konuşmalar boyunca terminal üzerinden kullanacağız. Tamam.
+
+00:02:12.000 --> 00:02:20.000
+Ve terminal üzerinden başlayabilmek için aslında bir dosya açmam lazım, terminal açmam lazım.
+
+00:02:20.000 --> 00:02:23.000
+Şimdi. Şunu söyleyeyim şimdi.
+
+00:02:23.000 --> 00:02:35.000
+Claude Code şu an. Bu arada ben Mac'te çalışıyorum, arkadaşlar. Bu arada söyleyeyim. Mac kullanıcıları için bu çok rahat kurulum. Aynı zamanda Linux için de çok rahat kurulum.
+
+00:02:35.000 --> 00:02:46.000
+Windows'ta biraz daha sıkıntılı bazı şeyler oluyor. Yani genelde kurulabiliyor da bazı şeyler farklı oluyor. Ee, örneğin.
+
+00:02:46.000 --> 00:02:56.000
+Claude Code. Terminal'de çalışıyor ve birkaç özelliği var. Birincisi, ee, kodu yazabilir.
+
+00:02:56.000 --> 00:03:04.000
+Ee, kodu çalıştırabilir. Ee, kodu test edebilir. Ee, dosyaları okuyabilir.
+
+00:03:04.000 --> 00:03:14.000
+Ee, dosyaları yazabilir. Ee, web araması yapabilir. Git komutlarını kullanabilir. Projedeki hataları tespit edip düzeltebilir.
+
+00:03:14.000 --> 00:03:23.000
+Ee, bütün bunlar aslında hep önceden söylediğimiz agentic AI özelliklerine sahip olan bir araç. Yani agentic AI yapabilmek için araçlara ihtiyaç duyar.
+
+00:03:23.000 --> 00:03:31.000
+Ve araçlarını kullanarak bir görevi tamamlamak için birden fazla adım atabilir. Bu arada hep söylüyorum ben, şimdi söylüyorum.
+
+00:03:31.000 --> 00:03:40.000
+Bir şeyi söyleyeyim. Bu araçlarla ilgili, şu an.
+
+00:03:40.000 --> 00:03:47.000
+Biz Claude Code kullanıyoruz. Ama aynı zamanda başka araçlar da, alternatifler de var.
+
+00:03:47.000 --> 00:03:52.000
+Bunlardan bir tanesi Claude Code'a çok benzeyen Cursor.
+
+00:03:52.000 --> 00:04:00.000
+Cursor. Ee, peki Cursor'ı mı kullanalım Claude Code'u mu kullanalım? Ee, ikisi de aslında benzer şekilde çalışıyor.
+
+00:04:00.000 --> 00:04:09.000
+Cursor bir IDE. Yani kod editörüdür. Ee, Claude Code ise bir CLI, yani bir terminal uygulamasıdır.
+
+00:04:09.000 --> 00:04:16.000
+Cursor'ın şöyle bir avantajı var: Cursor'da visual bir arayüz var ve.
+
+00:04:16.000 --> 00:04:21.000
+Dosyalar arasında gezinmek, değişiklikleri görmek çok daha rahat.
+
+00:04:48.000 --> 00:04:59.000
+Okay, şimdi bir ilk şeyle başlayalım. Bir prompt'la başlayalım. Bundan sonra artık prompt'u direkt burada yazıyorsunuz.
+
+00:04:59.000 --> 00:05:03.000
+Neyle başlayalım? Mesela diyelim ki.
+
+00:05:03.000 --> 00:05:10.000
+Şu anda, ee, vibe coding dersinde.
+
+00:05:10.000 --> 00:05:20.000
+Hep birlikte tool'lar nasıl çalışır konulu.
+
+00:05:20.000 --> 00:05:31.000
+Derste bir agent tasarlamak, oluşturmak istiyoruz.
+
+00:05:31.000 --> 00:05:38.000
+Şimdi burada artık, bu sizin tamamen prompt'u nasıl yazacağınızla alakalı bir durum. Yani bunu dilediğinizce böyle.
+
+00:05:38.000 --> 00:05:42.000
+Modele ne anlatacağım? Nasıl bir bilgi vermeliyim? Bu işte biraz hafif prompt engineering'e doğru giren böyle bir şey.
+
+00:05:42.000 --> 00:06:12.000
+Burada benim tavsiyem şu, benim örneğim şu: daha önceki derste de verdiğim örnek, diyelim siz eve bir boyacı çağırdınız, tamam mı? Boyacıya odayı boyatmak istiyorsunuz, çağırdınız, nasıl anlatırsınız? Yani şunu diyebilirsiniz, mesela, şunu diyebilirsiniz: bu odayı şuraya boya deyip çıkabilirsiniz, bu nedir? Bu belki bir
+
+00:06:23.000 --> 00:06:24.000
+bir ev hanımı olabilirsiniz ya da böyle evde çalışan birisiniz. Çok böyle bilmiyorsunuz bunu.
+
+00:06:24.000 --> 00:06:35.000
+Ama bir boya ihtiyacı hasıl olmuş. Bu ustayı çağırdınız. Dediniz ki kardeş, burayı boya.
+
+00:06:35.000 --> 00:06:41.000
+Bu kadar. Şimdi 2'nci seçenek. Siz mimarsınız. Bir evi boyatıyorsunuz.
+
+00:06:41.000 --> 00:06:52.000
+Bu sefer bu ustayı çağırdığınızda dediniz ki: Bak kardeş, ilk önce 2 kat zaten alçı çekeceksin, tamam mı? Ondan sonra alçının marka atışı olacak.
+
+00:06:52.000 --> 00:07:00.000
+Ondan sonra üzerine bir kat böyle bir primer çekeceksin. Primer de şöyle olacak. Sonra 2 kat şu boyadan istiyorum. Şu marka olsun.
+
+00:07:00.000 --> 00:07:04.000
+Şuradan olsun. Tamam, tepeye de mat bir boya istiyorum.
+
+00:07:04.000 --> 00:07:11.000
+İlk önce mutlaka, işte, alçıyı böyle bir kazıyacaksın, işte zımpara, şu zımparayla zımparala falan dedi.
+
+00:07:11.000 --> 00:07:16.000
+Böyle detay detay verdiniz. Şimdi, bu prompt engineering ile alakalı olan şey: ne kadar bilgi verirseniz ona göre yapacak.
+
+00:07:16.000 --> 00:07:26.000
+Yani o boyacı eğer iyi bir ustaysa, o boyacının ustalık seviyesi modelin büyüklüğü ile.
+
+00:07:26.000 --> 00:07:38.000
+Şöyle düşünün: yeni başlamış bir boyacı GPT-4 mini, çok deneyimli boyacı GPT-4.5 işte, fiyatı fark eder, tamam mı? Böyle düşünün.
+
+00:07:38.000 --> 00:07:46.000
+Şimdi, siz eğer yeni başlayan bir boyacıya bu kadar detay verirseniz, onu yapamayabilir. Çünkü bilmiyor olabilir.
+
+00:07:46.000 --> 00:07:47.000
+Anlatabiliyor muyum? Şimdi, eğer bu kadar detaylı ve kompleks bir şekilde vereceksiniz, o zaman büyük modeli tercih edeceksiniz.
+
+00:07:47.000 --> 00:07:58.000
+Effort level, thinking havalı da biraz daha yüksek olacak. Ama siz böyle çok temel bir şey istiyorsunuz.
+
+00:07:58.000 --> 00:07:59.000
+Yani bana bir tane Excel hazırla. Şöyle olsun. Bana bir form hazırla.
+
+00:07:59.000 --> 00:08:09.000
+Böyle olsun. O zaman ufak modelden devam edebilirsiniz. Çünkü zaten yeterli bilgi de vermiyorsunuz. O böyle genel, generic bir şey yapacak.
+
+00:08:09.000 --> 00:08:11.000
+Size.
+
+00:08:11.000 --> 00:08:23.000
+Anlatabildim mi? Şimdi burada diyeceğim ki, ben bunu oluşturmak istiyorum. Fakat önce llm.py adında bir dosya oluştur.
+
+00:08:23.000 --> 00:08:28.000
+Adında bir dosya oluştur.
+
+00:08:28.000 --> 00:08:34.000
+Bu dosyada bir OpenAI modeli kullanacağız.
+
+00:08:34.000 --> 00:08:43.000
+Bir metod istiyorum.
+
+00:08:43.000 --> 00:08:49.000
+İçinde system instructions'ı,
+
+00:08:49.000 --> 00:08:53.000
+İngilizce, Türkçe karışık her şeyi anlıyor. Bir şey yapmanız gerekiyor.
+
+00:08:53.000 --> 00:09:01.000
+Conversation history, system prompt ve model parametrelerini alsın.
+
+00:09:01.000 --> 00:09:09.000
+Ve geriye modelin sonucunu döndürsün.
+
+00:09:09.000 --> 00:09:18.000
+Bakalım, başka? Şimdilik.
+
+00:09:18.000 --> 00:09:24.000
+Memory'si olmayan.
+
+00:09:24.000 --> 00:09:28.000
+Bir model kullanacağız.
+
+00:09:28.000 --> 00:09:39.000
+Ben bu prompt'ları chat'e de yazarım hatta. Şimdi şöyle size de yazayım. İsteyenler deneyebilir.
+
+00:09:39.000 --> 00:09:48.000
+Şimdi yazdıktan sonra Enter'a bastık. Şimdi burada size ilk önce, bu arada Claude Sonnet çalışıyor.
+
+00:09:48.000 --> 00:09:56.000
+Bakın, şimdi dedi ki, bana bunu göstermek için aslında böyle yaptım. Dedi ki, şu anda benim bir yazma iznim yok.
+
+00:09:56.000 --> 00:10:04.000
+Permission yok bu klasörde, tamam mı? Şimdi, bakın, şurada bir bölüm var.
+
+00:10:04.000 --> 00:10:12.000
+Tamam, şimdi burada bizim Shift Tab'a bastığımız zaman burada modları değiştirebiliyoruz.
+
+00:10:12.000 --> 00:10:19.000
+Şimdi bu "accept edits" dediğimiz şey, sen bir şey yazabilirsin demek.
+
+00:10:19.000 --> 00:10:23.000
+Plan modu, plan moduna geçer demek.
+
+00:10:23.000 --> 00:10:31.000
+Şurada biz "accept edits" deriz. Bu buraya yazamadığı için cevabı bana böyle yazdı.
+
+00:10:31.000 --> 00:10:34.000
+İzni verdim.
+
+00:10:34.000 --> 00:10:44.000
+Dosyayı oluşturabilirsin.
+
+00:10:44.000 --> 00:10:57.000
+Bu sefer bu dosya geldi. Ne yaptı, oluşturdu? Bakın, burada da biraz önce OpenAI ile gördüğümüz koda benzer değil mi? OpenAI SDK'sını kullandı.
+
+00:10:57.000 --> 00:11:03.000
+İlgili metodu kullandı. Bu SDK'nın içerisinde bir tane client oluşturdu. Yani bunun hepsini yaptı.
+
+00:11:03.000 --> 00:11:12.000
+Okey, bu dosyayı yazma ayrıntısına girmeyeceğiz. Şimdi ne yapalım?
+
+00:11:12.000 --> 00:11:21.000
+Bunu kullanmamız lazım, değil mi? Şimdi bunu kullanacağımızı yazalım. Diyelim ki şimdi.
+
+00:11:21.000 --> 00:11:27.000
+Bir frontend oluştur.
+
+00:11:27.000 --> 00:11:37.000
+Frontend HTML gibi, frontend dizinini oluştur. Ve bu API'yi,
+
+00:11:37.000 --> 00:11:43.000
+Bu metodu kullanabilecek.
+
+00:11:43.000 --> 00:11:48.000
+Bir arayüz.
+
+00:11:48.000 --> 00:11:52.000
+Ve basit bir sayfa yap.
+
+00:11:52.000 --> 00:11:57.000
+Sayfada model seçeceğim.
+
+00:11:57.000 --> 00:12:02.000
+Bir combo box olsun.
+
+00:12:02.000 --> 00:12:06.000
+System instructions yazacağım.
+
+00:12:06.000 --> 00:12:11.000
+Ve prompt girebileceğim.
+
+00:12:11.000 --> 00:12:16.000
+Yapacaksın.
+
+00:12:16.000 --> 00:12:19.000
+Şimdi ikinci şeyi veriyorum.
+
+00:12:19.000 --> 00:12:29.000
+Şimdi bu sizce zor bir görev mi, kolay bir görev mi? Hangi modeli seçmeliyim?
+
+00:12:29.000 --> 00:12:35.000
+Beklentilerimize göre değil hocam. Çok kabiliyetli bir şey istemiyorsak çok düşünen bir şeye gerek yok.
+
+00:12:35.000 --> 00:12:36.000
+Kolay, doğru.
+
+00:12:36.000 --> 00:12:43.000
+Kolay bir şey değil mi? Bu kolay bir şey arkadaşlar. Böyle upuzun, agentic bir reasoning sistemi istemiyoruz.
+
+00:12:43.000 --> 00:12:51.000
+Refactoring istemiyoruz. Yani çok kolay bir şeydi bu arada.
+
+00:12:51.000 --> 00:13:04.000
+Neyse bunu yapalım. Codex'e de yapalım.
+
+00:13:04.000 --> 00:13:10.000
+Şimdi arkadaşlar, 2 kere Escape'e bastığımda iptal oldu.
+
+00:13:10.000 --> 00:13:17.000
+Bazen bir fikir değiştirirsiniz. Ne yapacaksınız? Durdurmak için terminalde 2 kere Escape'e basıyoruz.
+
+00:13:17.000 --> 00:13:25.000
+Bir şey yazdınız, 2 kere Escape bastığınızda, yani çalışmadan önce 2 kere Escape.
+
+00:13:25.000 --> 00:13:35.000
+Escape yaparsanız bu siler her şeyi. Eğer bir şey çalışıyorsa, onu durdurur. Codex'te bu 2 kere Escape işe yaramıyor.
+
+00:13:35.000 --> 00:13:44.000
+Ctrl+C ile durduruyorsunuz. Şimdi burada niye durdurdum ben? Çok önemli bir şey atladım. Çok temel bir prensip.
+
+00:13:44.000 --> 00:13:50.000
+Çok önemli bir şey atladım. Neyi atladım?
+
+00:13:50.000 --> 00:13:51.000
+Bir şey yapmayı unuttum.
+
+00:13:51.000 --> 00:13:53.000
+Model mi seçmedin?
+
+00:13:53.000 --> 00:13:54.000
+Hayır.
+
+00:13:54.000 --> 00:13:58.000
+Nereye yazacağını mı belirtmedin?
+
+00:13:58.000 --> 00:14:04.000
+Hayır. Hadi bakalım.
+
+00:14:04.000 --> 00:14:05.000
+İzin.
+
+00:14:05.000 --> 00:14:15.000
+Hadi Claude Code'u görelim. Bir şey yapmadım ben, çok önemli.
+
+00:14:15.000 --> 00:14:16.000
+Dolayısıyla.
+
+00:14:16.000 --> 00:14:22.000
+Sistem prompt'u vermediniz. Mesela işte, her şeyi harfiyyen kullan veya işte.
+
+00:14:22.000 --> 00:14:23.000
+Sistem prompt'u.
+
+00:14:23.000 --> 00:14:25.000
+Uydurma yapma, halüsinasyon yapma gibi şeyler söylemediniz. Ben söylemedim.
+
+00:14:25.000 --> 00:14:26.000
+Hayır.
+
+00:14:26.000 --> 00:14:29.000
+Hocam, sistem prompt'u vermediniz. Rol vermediniz.
+
+00:14:29.000 --> 00:14:33.000
+Eyvallah. Güzel.
+
+00:14:33.000 --> 00:14:35.000
+Doküman mı verecektiniz acaba?
+
+00:14:35.000 --> 00:14:36.000
+Büyük ihtimalle başlangıç olabilir.
+
+00:14:36.000 --> 00:14:41.000
+Hayır, ekranda görüyorsunuz. Gerçekten, git. Ne işe yarıyor?
+
+00:14:41.000 --> 00:14:44.000
+Dosyaların sürüm takibi.
+
+00:14:44.000 --> 00:14:45.000
+Dosyaların takibini sağlasın. Git, git kurmak çok önemli.
+
+00:14:45.000 --> 00:14:47.000
+Anlamış mıydı? sorayım. Hm.
+
+00:14:47.000 --> 00:14:48.000
+Lokal git olsun.
+
+00:14:48.000 --> 00:14:49.000
+Hocam.
+
+00:14:49.000 --> 00:14:56.000
+Unuttuk. Şimdi git'i bildiğiniz arkadaşlar, yani bilmiyorsanız mutlaka öğrenmeniz lazım git ve GitHub'ı.
+
+00:14:56.000 --> 00:15:08.000
+Tamam, şimdi bu git'i eğer başlatmazsanız, vibe coding'de geliştireceğiniz, verdiğiniz her bir komuttan sonra değişen dosyaların ne olduğunu anlayamazsınız.
+
+00:15:08.000 --> 00:15:22.000
+Geri alamazsınız. Dolayısıyla bunu mutlaka projede hemen başlatmanız gerekiyor. Zaten git başlatıldığında, bakın, benim ilk değişikliğim neydi? Bu app.py dosyası, burada görüyorsunuz.
+
+00:15:22.000 --> 00:15:32.000
+Sol tarafta görüyorsunuz. Buna tıkladığınız zaman bu dosya açılıyor. Bu dosya yeni olduğu için açıldı, tamam mı? Eğer değişiklik olsaydı, eskisi ve yenisinin farkını gösterecekti.
+
+00:15:32.000 --> 00:15:34.000
+Burada, bana.
+
+00:15:34.000 --> 00:15:38.000
+Bu değişikliği yaptıktan sonra da ben.
+
+00:15:38.000 --> 00:15:48.000
+Bunu hemen kendim commit'leyebilirim. app.py dosyası oluşturuldu.
+
+00:15:48.000 --> 00:15:52.000
+Şu anda artık commit'lendi. Bu değişikliği ben kabul ettim. Aldım.
+
+00:15:52.000 --> 00:15:53.000
+Ben.
+
+00:15:53.000 --> 00:15:57.000
+Her prompt sonrasında, hocam, commit mi yapmamız gerekiyor yani?
+
+00:15:57.000 --> 00:16:03.000
+Evet, test ettiniz. O konulara da geleceğiz. Review ettiniz, test ettiniz, her şeyden memnunsunuz.
+
+00:16:03.000 --> 00:16:07.000
+Hemen commit'leyin.
+
+00:16:07.000 --> 00:16:13.000
+Şimdi terminalde yeni geldim ya, biraz önce yazdığımı nasıl getireceğim? Geri ok tuşlarıyla.
+
+00:16:13.000 --> 00:16:19.000
+Arkadaşlar. Yazdıklarınız arasında gezinti yapabilirsiniz.
+
+00:16:19.000 --> 00:16:33.000
+Şimdi tekrar çalıştıralım.
+
+00:16:33.000 --> 00:16:39.000
+Bu sistem prompt'tan farklı değil mi?
+
+00:16:39.000 --> 00:16:46.000
+Bu stream demek. Ya oradaki? Bu arada tamamen başka bir şey. Yani şunlar, hatta bunu.
+
+00:16:46.000 --> 00:16:47.000
+Ah.
+
+00:16:47.000 --> 00:16:51.000
+Bunları değiştirebiliyorsunuz. Ayarlardan böyle tam uydurma şeyler. Bunların hiçbir önemi yok. Böyle anlamsız şeyler yazıyor burada genelde.
+
+00:16:51.000 --> 00:16:55.000
+Bunları da değiştirebiliyor. Bu, bir şey başlatmak lazım. Evet, ne dedi? Evet, kardeş, dosyalar hazır, çalıştırmak için dedi.
+
+00:16:55.000 --> 00:17:05.000
+Şöyle yapabilirsin. Şimdi burada, bu arada ne yaptı bir bakalım. Bakın, burada bir tane.
+
+00:17:05.000 --> 00:17:14.000
+Bir HTML web sayfası oluşturdu, değil mi? Kaynak kodunu görebiliyor musunuz? Biraz daha büyüteyim mi?
+
+00:17:14.000 --> 00:17:15.000
+Harika!
+
+00:17:15.000 --> 00:17:16.000
+Buldu.
+
+00:17:16.000 --> 00:17:19.000
+Şurada bir CSS var, tabii canım. Burada ise esas kod var. Burada formu oluşturdu.
+
+00:17:19.000 --> 00:17:28.000
+Bakın. Burada model listesi var. Burada işte formlar var. Şunu da şöyle kapatalım.
+
+00:17:28.000 --> 00:17:36.000
+Burada da, JavaScript ile ne yapacak? Burada geldi, değerleri form'dan aldı ve API'ye,
+
+00:17:36.000 --> 00:17:38.000
+chat API'ye gönderdi. Yani şurada da bir API endpoint oluşturdu.
+
+00:17:38.000 --> 00:17:48.000
+Flask server oluşturdu. Biz ona saf Flask kullan deseydik Flask ile oluşturacaktık.
+
+00:17:48.000 --> 00:17:57.000
+Yani buradaki mimar gibi, boyacı modelini biliyorsanız, tercihinize göre diyebilirsiniz ki bana bir React frontend yaz işte.
+
+00:17:57.000 --> 00:18:00.000
+FastAPI ile backend yaz diyebilirsiniz. Demezseniz o kendisi bir şey oluşturacak mantıklı bir seçim.
+
+00:18:00.000 --> 00:18:10.000
+Mantıklı bir seçim. Neden? Çünkü Vanilla JavaScript kullanıyor.
+
+00:18:10.000 --> 00:18:18.000
+Burada programlamada Vanilla denen bir şey var. Sade dondurma gibi, herhangi bir framework kullanmadan sade böyle yaptı.
+
+00:18:18.000 --> 00:18:19.000
+Burada bir tane API tanımladı. Bakın, API endpoint var.
+
+00:18:19.000 --> 00:18:24.000
+Burada. API'ye bu da geliyor.
+
+00:18:24.000 --> 00:18:30.000
+Ne yapıyor? Değerleri alıyor. Değerleri aldıktan sonra call_llm adındaki fonksiyonu çağırıyor.
+
+00:18:30.000 --> 00:18:34.000
+O zaten bizim yazmış olduğumuz, "bu dosyayı kullan" diye bizim yazdırdığımız fonksiyona gidiyor.
+
+00:18:34.000 --> 00:18:40.000
+Cevabını alıyor ve geri dönüyor bize.
+
+00:18:40.000 --> 00:18:50.000
+Şimdi bu çalışacak mı? Deneyelim mi?
+
+00:18:50.000 --> 00:18:56.000
+Çalışmaz diyenler, neden çalışmayacağını söylesin.
+
+00:18:56.000 --> 00:19:05.000
+Hocam, backend çalışıyor mu? Test etmeye çalışıyorum. Şu anda aktif mi? Bir diğer konu, biz API key'leri bağladık mı?
+
+00:19:05.000 --> 00:19:06.000
+Haklısın.
+
+00:19:06.000 --> 00:19:11.000
+Bağlamadık arkadaşlar. API key için geliyoruz.
+
+00:19:11.000 --> 00:19:15.000
+API key'e buradan bir tane. Yine API key alıyoruz.
+
+00:19:15.000 --> 00:19:22.000
+Bir tane oluşturuyoruz. Bunu kopyalıyoruz. Sonra diyoruz ki, bunu kendimiz de verebiliriz.
+
+00:19:22.000 --> 00:19:30.000
+Ama genelde şöyle yapıyoruz. Bir tane .env dosyası oluşturuyoruz zaten.
+
+00:19:30.000 --> 00:19:31.000
+Sonra da diyoruz ki...
+
+00:19:31.000 --> 00:19:35.000
+O key'i de chat'te paylaşacak mısınız hocam?
+
+00:19:35.000 --> 00:19:36.000
+Niye paylaşayım? Kendiniz alın.
+
+00:19:36.000 --> 00:19:44.000
+Bak, API key geldi.
+
+00:19:44.000 --> 00:19:54.000
+Evet, bu API key. Kopyaladım.
+
+00:19:54.000 --> 00:19:59.000
+Hey, neyi gizleyecektim?
+
+00:19:59.000 --> 00:20:05.000
+Buraya yapıştırırız. Dersten sonra bunu sileyim, en azından ekrandan görünmesin.
+
+00:20:05.000 --> 00:20:06.000
+Evet.
+
+00:20:06.000 --> 00:20:09.000
+Bu arada .gitignore oluşturmayı da unutmayalım.
+
+00:20:09.000 --> 00:20:12.000
+Evet, onu da göreceğiz şimdiden.
+
+00:20:12.000 --> 00:20:16.000
+İnsanlar kullansın ki ihtiyaçlarına göre alabilsinler.
+
+00:20:16.000 --> 00:20:29.000
+Evet, hepsini buradan yaparız. Şimdi gelelim buraya, devam edelim. Okey. Ne diyelim? Ben de Codex'e mi görev versek?
+
+00:20:29.000 --> 00:20:39.000
+Buradan devam edebilirsiniz. Ama bakın, burada biz aynı şeyi devam ettiriyoruz ya. Peki, burada artık şunu yapmamız lazım.
+
+00:20:39.000 --> 00:20:42.000
+Ne yapmamız lazım?
+
+00:20:42.000 --> 00:20:54.000
+Temizlememiz lazım. Bu neden? Çünkü her bir soru ve cevap üst üste birikiyor. Aslında biz işi yaptık yani, değil mi? Birkaç tane şey yaptık, dolayısıyla devam ettirmenin anlamı yok.
+
+00:20:54.000 --> 00:21:02.000
+Yeni bir görev vereceğiz. Yeni görev verdiğimizde hemen temizleyip sıfırdan başlayalım ki token kullanımı verimli olsun.
+
+00:21:02.000 --> 00:21:06.000
+Hem performansı arttıralım, token kullanımını azaltalım. Buyurun Ünal Bey.
+
+00:21:06.000 --> 00:21:15.000
+Burada siz birçok şey için manuel yapıyorsunuz. Mesela şu ki, buraya gir ya da işte temizle. Google Antigravity diye bir şey çıkarttı.
+
+00:21:15.000 --> 00:21:22.000
+Hiç onu kullandınız mı? Ya da siz mesela niye kullanmıyorsunuz onu?
+
+00:21:22.000 --> 00:21:28.000
+Ne diyeyim? Bunlar biraz daha profesyonel araçlar değil.
+
+00:21:28.000 --> 00:21:30.000
+
+00:21:30.000 --> 00:21:31.000
+Yeni bir araçtı. Ama o biraz daha böyle.
+
+00:21:31.000 --> 00:21:40.000
+Ben bir kere, ilk duyurulduğunda onu deneyip kullandım zaten. Düzgün çalışmıyordu.
+
+00:21:40.000 --> 00:21:50.000
+Açıkçası, onlar bir şirketi satın aldılar, biliyorsun. Sonra o araca tamamen Antigravity adını verdiler ve kullandılar.
+
+00:21:50.000 --> 00:21:56.000
+Bu biraz daha, arkadaşlar, böyle her şeye dokunabildiğiniz, kullanabildiğiniz bir şey.
+
+00:21:56.000 --> 00:22:02.000
+Yani dediğiniz gibi otomatik. Biraz daha böyle, yazılımcıysanız bunu kullanmanızı ben tavsiye ederim.
+
+00:22:02.000 --> 00:22:13.000
+Eğer daha böyle, ne bileyim, çok bir şey bilmeden de böyle bir şeyler yapmak istiyorsanız o tarafa doğru gidebilirsiniz.
+
+00:22:13.000 --> 00:22:15.000
+Ama bir şey diyemem, çok kullanmadım.
+
+00:22:15.000 --> 00:22:21.000
+Ama ben ikisini de aktif olarak kullanmıyorum. Cursor'ı kullandım ve bıraktım.
+
+00:22:21.000 --> 00:22:29.000
+GitHub Copilot'ı kullandım da bıraktım. Onlar benim böyle bakıp buraya geri döndüğüm şeyler.
+
+00:22:29.000 --> 00:22:44.000
+Şimdi burada diyeceğiz ki, .env dosyasını oluştur, oradaki key'i kullanır hale getir.
+
+00:22:44.000 --> 00:22:52.000
+Şimdi, bakın. Burada şu an bir context yok. Yani nerede kullanacağım ki ben bunu? Okuma için token kullanımı olacak.
+
+00:22:52.000 --> 00:22:59.000
+Şu anda model bunu düşünecek ve model bunu düşündükten sonra gidip bir şeye bakacak.
+
+00:22:59.000 --> 00:23:05.000
+Operasyon yapıyor: ilk önce dizini listeleyecek. Hangi dosyalar var? Hangi dosyada kullanılıyor olabilir diye düşünecek.
+
+00:23:05.000 --> 00:23:10.000
+Sonra o dosyanın içini açıp bakacak. Sonra onu yapacak.
+
+00:23:10.000 --> 00:23:17.000
+Dolayısıyla burada siz o context'i yenilediniz, ama yine bir context oluşturmaya gidecek.
+
+00:23:17.000 --> 00:23:22.000
+Model burada, ya da...
+
+00:23:22.000 --> 00:23:31.000
+Bir özellik daha söyleyeceğim. Şimdi @ sembolüyle dosya mention edebiliyorsunuz, tamam mı?
+
+00:23:31.000 --> 00:23:37.000
+.env dosyasında.
+
+00:23:37.000 --> 00:23:42.000
+Bu token'ı.
+
+00:23:42.000 --> 00:23:46.000
+dosyasına ekle.
+
+00:23:46.000 --> 00:23:52.000
+Şimdi artık ben bu mention'ı kullandığım için tekrar söylüyorum, @ yaptığınız zaman,
+
+00:23:52.000 --> 00:23:57.000
+bu otomatik olarak seçtiğiniz dosyaları vesaire mention ediyor. Biliyorsunuz artık.
+
+00:23:57.000 --> 00:24:05.000
+Aynı şey. Bu Codex'te de çok benzer. Codex'te yazdıkça geliyor.
+
+00:24:05.000 --> 00:24:16.000
+Bunu da unutmamak lazım. Bu da önemli bir şey. Dosyayı kullanır hale getir dediğim zaman artık ona diyorum ki sen her şeye bakma.
+
+00:24:16.000 --> 00:24:22.000
+.env dosyasını git aç ve oku. Bu otomatik yaptı. Bakın ne yaptı: hemen .env'e gitti.
+
+00:24:22.000 --> 00:24:30.000
+Onu okudu, sonra onun referansını buldu. Dedi ki, biraz büyüteyim.
+
+00:24:30.000 --> 00:24:47.000
+Bu requirements.txt'e gitti, .env'in kullanılması için .env'e gitti, tamam mı? Sonra dedi ki, "Evet, şimdi .env dosyasını dotenv paketini kullanacak şekilde kullanacağım" dedi.
+
+00:24:47.000 --> 00:24:51.000
+Dedi ki, "Bunları şu şekilde yapacağım."
+
+00:24:51.000 --> 00:24:59.000
+Dedi ki, bunu kullanman gerek, bu paketi artık ekliyorum, .env dosyasının böyle olduğunu oku, pip ile yüklü olduğundan emin ol.
+
+00:24:59.000 --> 00:25:04.000
+Sonra dedi, ben bunu kullanacağım. Şimdi bakıyoruz değişikliklerine. .env'i
+
+00:25:04.000 --> 00:25:10.000
+biz değiştirmiştik zaten. .env
+
+00:25:10.000 --> 00:25:19.000
+biraz önce yine oluştu. .env'de de bakın, bunu ekledi. Bir tane env loader'ı kullandı.
+
+00:25:19.000 --> 00:25:24.000
+dotenv adında bir paket var. O klasördeki .env dosyalarını otomatik yüklüyor.
+
+00:25:24.000 --> 00:25:29.000
+Yani kütüphane sayesinde sizin herhangi bir değişiklik yapmanıza gerek kalmadan artık kullanabiliyorsunuz.
+
+00:25:29.000 --> 00:25:37.000
+Şimdi buradan sonra,
+
+00:25:37.000 --> 00:25:48.000
+bir commit'leyeceğim. Commit'lemek için hazır. Yani kendim yapabilirim ama genelde modeli kullanmayı tercih ediyorum, tamam mı?
+
+00:25:48.000 --> 00:25:52.000
+Commit'liyor.
+
+00:25:52.000 --> 00:25:59.000
+Şimdi bu gidecek. Benim bütün değişikliklerimi alacak, commit'leyecek.
+
+00:25:59.000 --> 00:26:07.000
+Bakın, commit'leri de burada görüyorsunuz. 1'incisi bizim oluşturduğumuzdu. Bunun üzerine gelirseniz, o commit'te benim yazdığım mesajı görüyorsunuz.
+
+00:26:07.000 --> 00:26:13.000
+Hangi dosyaların değiştiğini görüyorsunuz. Şimdi, burada 2'nci bir şey var arkadaşlar, bunu biraz daha büyüteyim.
+
+00:26:13.000 --> 00:26:20.000
+Dedi ki bana: Ben commit'leyeceğim ama bir git komutu çalıştıracağım. Bak, git add komutunu çalıştıracağım.
+
+00:26:20.000 --> 00:26:31.000
+Ve bunu yazacağım. Bunu onaylıyor musun? Şimdi ben bunu onaylayabilirim. Ya da diyebilirim ki, bütün bu git commit komutlarının hepsini onaylıyorum diyebilirim.
+
+00:26:31.000 --> 00:26:40.000
+Bunu dediğim zaman otomatik olarak şurada bir .claude dizinindeki settings dosyanıza bir permission ayarladı.
+
+00:26:40.000 --> 00:26:46.000
+Yani dedi ki, ben bundan sonra bu projede bu git komutlarında bir şey sormayacağım, kullanıcı artık onay verdi dedi.
+
+00:26:46.000 --> 00:26:53.000
+Kullanıcı bana bunu buraya kaydetti. Bunu silerseniz bir daha sorar. Başka bir şey daha var, hızlı tıklarsanız,
+
+00:26:53.000 --> 00:27:05.000
+permissions komutunu çalıştırırsanız burada permission seçebilirsiniz. Bütün bu permission'lar...
+
+00:27:05.000 --> 00:27:08.000
+Şunları burada verebilirsiniz.
+
+00:27:08.000 --> 00:27:16.000
+Yani bütün bu soru cevap permission'ların listesi burada. Tamam, kendiniz de ekleyebilirsiniz şunu: asla sormasın,
+
+00:27:16.000 --> 00:27:24.000
+Her zaman reddet. Buna mutlaka sorsun. Buna mutlaka cevap versin diyebilirsiniz. Tamam.
+
+00:27:24.000 --> 00:27:29.000
+Ee.
+
+00:27:29.000 --> 00:27:33.000
+Bir daha.
+
+00:27:33.000 --> 00:27:40.000
+Biz genelde şöyle yapıyoruz arkadaşlar. Şunu kullanıyorum ben. Permission'lar gerçekten...
+
+00:27:40.000 --> 00:27:49.000
+Genelde, artık modeller eskiden daha böyle dikkat ettirirdi. Ama artık modeller çok daha iyi olduğu için bir daha bana bir şey sormasın diye şunu yapıyorum.
+
+00:27:49.000 --> 00:27:54.000
+Bakın, burada kontrol, settings'e girdim.
+
+00:27:54.000 --> 00:28:02.000
+Claude'da eğer global settings'i
+
+00:28:02.000 --> 00:28:06.000
+Skip Permissions diye açarsanız,
+
+00:28:06.000 --> 00:28:15.000
+artık burada bypass permission olarak açtığınız için bundan sonra bana hiçbir şey sormayacak model.
+
+00:28:15.000 --> 00:28:24.000
+Genelde böyle çalışıyorum ben şimdilik. Deneyeceğiz bunu. Projemiz var, değil mi? Deneyeceğiz.
+
+00:28:24.000 --> 00:28:31.000
+Nasıl çalışacağız? Asım Bey, buyurun.
+
+00:28:31.000 --> 00:28:32.000
+Hocam!
+
+00:28:32.000 --> 00:28:36.000
+Hocam, yine token'la alakalı olacak. Ama burada yine token kullanımını artırıyor, değil mi bu? Çünkü ona otomatik o izni verdiğin zaman ekliyor.
+
+00:28:36.000 --> 00:28:40.000
+Belki bir komut yazacak.
+
+00:28:40.000 --> 00:28:49.000
+Evet, yani bir soru sorması gerektiğini biliyor falan. Evet, onu yapıyor. Artıyor.
+
+00:28:49.000 --> 00:28:56.000
+Şimdi ne diyelim? Nasıl çalıştırabilirim bu projeyi burada? Bir Python biliyorsanız vesaire artık,
+
+00:28:56.000 --> 00:29:09.000
+şöyle de diyebilirsiniz: bana bir Python dosyası oluştur, ondan sonra bir tane environment oluştur vesaire diyebilirsiniz. Ya da direkt sorabilirsiniz.
+
+00:29:09.000 --> 00:29:13.000
+Ben şimdi,
+
+00:29:13.000 --> 00:29:19.000
+projeyi kolaylıkla
+
+00:29:19.000 --> 00:29:26.000
+çalıştırmak için bir requirements.
+
+00:29:26.000 --> 00:29:32.000
+txt oluştur.
+
+00:29:32.000 --> 00:29:45.000
+Bu requirements.txt arkadaşlar, bu Python environment'ında ihtiyaç duyduğumuz, kullandığımız kütüphaneleri tutuyor.
+
+00:29:45.000 --> 00:29:56.000
+Bu arada, bir önceki commit arkadaşlar, en son commit'im buydu. Bakın, burada görebiliyorsunuz, bir dosya oluşturdu.
+
+00:29:56.000 --> 00:30:08.000
+Commit'ledim şimdi bunu. Şimdi beraber çalıştıralım.
+
+00:30:08.000 --> 00:30:31.000
+Bunu çalıştırmak için Python'da genelde biz bir environment oluşturuyoruz. Yani eğer environment oluşturmazsanız, bütün böyle kurduğunuz library'ler ve yaptığınız değişiklikler, bilgisayarınızdaki global Python'da oluyor. Dolayısıyla virtual environment oluşturmanız gerekiyor. Bu Python'a spesifik bir şey, çok detayına girmeyeceğim, virtual environment oluşturacağız.
+
+00:30:31.000 --> 00:30:39.000
+Bunu yaparken de requirements'ları da kur diyorum. Bir soru var mıydı? Burada bir soru vardı sanki.
+
+00:30:39.000 --> 00:30:42.000
+Ben de virtual environment meselesini hatırlatacaktım.
+
+00:30:42.000 --> 00:30:55.000
+Bir environment oluşturup orada çalıştırıyoruz.
+
+00:30:55.000 --> 00:31:05.000
+Bu yaptığı niye komik değil?
+
+00:31:05.000 --> 00:31:17.000
+Bir şey mi? Neyse, devam edelim. Evet, şimdi environment oluştuğunda artık buraya geldiğimiz zaman,
+
+00:31:17.000 --> 00:31:24.000
+otomatik, bakın, bir environment burada oluştu. Artık bu environment'tayız. Okey, şimdi bunu kullanalım.
+
+00:31:24.000 --> 00:31:35.000
+Buradan kullanacağız. Şimdi ne yapacağız? Buradaki app.py dosyasını çalıştıracağız.
+
+00:31:35.000 --> 00:31:43.000
+Evet, app.py ile uygulamamız çalıştı. Şimdi buna tıklayalım. Bakın, arayüz uygulamamız geldi.
+
+00:31:43.000 --> 00:31:48.000
+Buradan, modeli seçelim. Aynı şeyi yapalım.
+
+00:31:48.000 --> 00:31:58.000
+Sen bir seyahat acentası görevlisisin.
+
+00:31:58.000 --> 00:32:19.000
+Evet, bana bir günlük Tokyo gezisi planla.
+
+00:32:19.000 --> 00:32:23.000
+Evet, cevabı aldık.
+
+00:32:23.000 --> 00:32:33.000
+Adana gitsek mi acaba?
+
+00:32:33.000 --> 00:32:37.000
+Bu uygulamamız çalışıyor. Buyurun.
+
+00:32:37.000 --> 00:32:48.000
+Şimdi bir seyahat acentası rolü verdik. Bunu detaylandırmak gerekiyor mu, yoksa o acente rolünü alıyor mu bir yerden?
+
+00:32:48.000 --> 00:33:00.000
+Keyfinize kalmış, ne derseniz ona göre cevap verecek. Yani burada ne diyelim, sen bir köfteci ol desek,
+
+00:33:00.000 --> 00:33:04.000
+bir köfteci nasıl bir Adana gezisi planlar, ona göre cevap alırsınız muhtemelen.
+
+00:33:04.000 --> 00:33:10.000
+Yemek, restoran odaklı olabilir.
+
+00:33:10.000 --> 00:33:17.000
+Sabah kahvaltısı Kazancılar'da, sucuklu, çörekli kahvaltı, lavaş ve hafif şeylere doğru kaymış olabilir.
+
+00:33:17.000 --> 00:33:22.000
+Burada detayına girmeyeceğiz, prompt mühendisliği falan girmeyeceğiz. Bu burada sadece,
+
+00:33:22.000 --> 00:33:29.000
+LLM nasıl çalışıyor? Evet, burada nasıl bir prompt verirseniz persona tabii. Bu bu kadar basit değil.
+
+00:33:29.000 --> 00:33:37.000
+Yani uzun uzun yazıyorsunuz. Mesela sen şu göreve sahip birisin, müşteriyle konuşurken, mesela sen,
+
+00:33:37.000 --> 00:33:44.000
+diyelim ki resepsiyonistsin, müşterilerle konuşurken şöyle konuşman lazım, bu konuda cevap verme, bu konuda mutlaka şunu söyle falan diye.
+
+00:33:44.000 --> 00:33:56.000
+Böyle uzun uzun yazarsanız ona göre cevap verir. Burada sadece şu anda ne yaptık? Bir uygulama yazdık, yani basit bir şekilde.
+
+00:33:56.000 --> 00:34:06.000
+Evet, sorusu olan var mı? Devam edelim.
+
+00:34:06.000 --> 00:34:22.000
+Şimdi nasıl devam edelim? Şimdi şöyle diyelim, bir görev daha. Bu source code'a gidelim. Diyelim ki şu anda yine aynı app.py dosyasında,
+
+00:34:22.000 --> 00:34:33.000
+aslında, okey, modeli çağırıyoruz fakat,
+
+00:34:33.000 --> 00:34:43.000
+bu model şöyle... Fakat demeyeyim de şunu ekleyeceğim arkadaşlar. Şimdi, gördüğünüz gibi, buna bastığım zaman böyle bekliyorum.
+
+00:34:43.000 --> 00:34:52.000
+Bunun stream etmesini istiyorum.
+
+00:34:52.000 --> 00:35:09.000
+Bekleyelim, model cevabını sayfaya stream etmeli. Streaming ne demek?
+
+00:35:09.000 --> 00:35:13.000
+Streaming arkadaşlar,
+
+00:35:13.000 --> 00:35:18.000
+bu yazının üretilirken bize gelmesi, yavaş yavaş yüklenmesi demek. Yani biz beklemeden,
+
+00:35:18.000 --> 00:35:33.000
+bunu tek seferde bize veriyor ya şu anda, ben diyorum bunu böyle ChatGPT'deki gibi yapsın.
+
+00:35:33.000 --> 00:35:36.000
+Parça parça anlık yükleme değil miydi?
+
+00:35:36.000 --> 00:35:43.000
+Evet, bana bir günlük Adana gezisi planla.
+
+00:35:43.000 --> 00:35:47.000
+Bakın bu şu anda ne yapacak?
+
+00:35:47.000 --> 00:35:53.000
+Bakın, böyle stream ediyor şu anda. Gördünüz mü?
+
+00:35:53.000 --> 00:35:56.000
+Yani ürettikçe görüyoruz.
+
+00:35:56.000 --> 00:36:04.000
+Şimdi bakalım, Codex ne yaptı? Peki Codex'in değişikliklerini görelim.
+
+00:36:04.000 --> 00:36:14.000
+Bir geldi, stream_llm diye bir tane geldi. Bakın, burada. Git'in bu faydaları, bir tane yeni metod üretti:
+
+00:36:14.000 --> 00:36:17.000
+Stream LLM fonksiyonunda.
+
+00:36:17.000 --> 00:36:22.000
+Bu sefer stream_llm, Chat Completions, bu aynısını kullanıyor.
+
+00:36:22.000 --> 00:36:29.000
+Bu sefer stream=True dedi. Yani bundan farklı olarak şu özelliği set etti: stream=True dedi.
+
+00:36:29.000 --> 00:36:43.000
+Ve bunu da bakın şu şekilde, chunk'lar halinde geri dönecek bir metot haline getirdi. Bu geriye generator döndürüyor ve chunk'lar devamlı dönüyor.
+
+00:36:43.000 --> 00:36:48.000
+Sonra geldi, index.html'i de
+
+00:36:48.000 --> 00:37:00.000
+buradaki değişiklikleri yaptı. Loop içerisinde her cevap geldiğinde bunu böyle ekleyecek şekilde ön yüze getirdi.
+
+00:37:00.000 --> 00:37:06.000
+Sonra da app.py'deki chat endpoint'ini aynı şekilde streaming destekler hale getirdi.
+
+00:37:06.000 --> 00:37:15.000
+Şimdi peki bunu doğru yaptı mı? Yani biz böyle baktık ama doğru mu?
+
+00:37:15.000 --> 00:37:19.000
+Bir yöntem: Claude'a gidiyoruz, Claude'da yine sıfırladık. Her seferinde böyle sıfırlıyoruz.
+
+00:37:19.000 --> 00:37:25.000
+Arkadaşlar, böyle context'i nasıl diyoruz ki.
+
+00:37:25.000 --> 00:37:31.000
+Elden, hm.
+
+00:37:31.000 --> 00:37:35.000
+Şöyle diyeyim, Claude'a, Codex'in LLM çağrısına
+
+00:37:35.000 --> 00:37:41.000
+streaming desteği getirdik.
+
+00:37:41.000 --> 00:37:52.000
+Kodu review eder misin? Yani Codex'in yaptığı kodu Claude'a review yaptırıyoruz.
+
+00:37:52.000 --> 00:37:54.000
+Codex'e yazdırdık, kodu Claude'a review yaptırıyoruz. Claude dedi ki, "Mevcut dosyaları okuyorum" dedi.
+
+00:37:54.000 --> 00:38:01.000
+index.html'i açıp ilgili app.py'i,
+
+00:38:01.000 --> 00:38:07.000
+Bunu genelde ben önce stage'e ekliyorum. Şimdi bunu böyle artı'ya bastığım zaman stage ediliyor.
+
+00:38:07.000 --> 00:38:17.000
+Commit diyoruz. Şu anda önce stage'e geçtik bunlar. Stage'deki değişikliklere bakarak bunu review eder misin? diyorum.
+
+00:38:17.000 --> 00:38:27.000
+Bu zaten otomatik olarak bunu algıladı. Dedi ki, kod genel olarak temiz ve iyi yapılandırılmış. Bulgularım dedi: stream_llm fonksiyonu app.py'de kullanılmıyor.
+
+00:38:27.000 --> 00:38:32.000
+Ölü kod, yani sen burada stream_llm adında bir şey yaptın ya, yeni bir fonksiyon yazdın.
+
+00:38:32.000 --> 00:38:35.000
+Eski fonksiyonu artık kullanmıyorsun, bu ölü kod oldu. Bir de dedi ki, if koşulunda kontrolü, boş chunk'ları filtreliyor.
+
+00:38:35.000 --> 00:38:43.000
+Bu okey, app.py'de 2 önemli eksik var: hata yönetimi yok, model parametresi doğrulanmıyor.
+
+00:38:43.000 --> 00:38:49.000
+Kullanıcı herhangi bir model gönderebilir, OpenAI'ye iletilir. Önerilen düzeltmeler özeti dedi.
+
+00:38:49.000 --> 00:38:52.000
+Şimdi bunu alıp,
+
+00:38:52.000 --> 00:38:56.000
+bunu alıp, şöyle kopyalayıp,
+
+00:38:56.000 --> 00:39:06.000
+Aslında şu bölümünü alacağım. Sadece o folder şey dursun istiyorum. Bunu bir review kontrolüne Codex'e veriyorum.
+
+00:39:06.000 --> 00:39:13.000
+Global git diff'i al.
+
+00:39:13.000 --> 00:39:19.000
+Bulguları deyip bunu verdiğiniz zaman ne yapacak Codex? Diyorsunuz ki, ben review ettim, tamam.
+
+00:39:19.000 --> 00:39:25.000
+Ya da Claude review etti. Ne derseniz bunu, bir şey yap diyorsunuz.
+
+00:39:25.000 --> 00:39:30.000
+Şimdi burada da böyle, hafif. Bunu stage edip sonraki değişiklikleri görmek için bu stratejiyi tutabilirsiniz.
+
+00:39:30.000 --> 00:39:38.000
+Değişiklikler buraya gelecek. Uygulama küçük olduğu için düzeltmeyi doğrudan app.py seviyesinde yapıyorum falan dedi.
+
+00:39:38.000 --> 00:39:44.000
+Sunucu tarafı hata yönetimi, frontend model doğrulaması falan, bunları ekleyeceğim dedi.
+
+00:39:44.000 --> 00:39:47.000
+Şunu.
+
+00:39:47.000 --> 00:39:53.000
+Düzeltmeler eklendi, düzeltmeler eklendi.
+
+00:39:53.000 --> 00:40:01.000
+Şimdi Codex'e tekrar gelip,
+
+00:40:01.000 --> 00:40:08.000
+şurayı direkt verebilirsiniz.
+
+00:40:08.000 --> 00:40:17.000
+Bu Claude ve Claude Code ile yapılabilir. Bakın, burada daha PR oluşturmadan kodlama ve kodu review etme.
+
+00:40:17.000 --> 00:40:21.000
+Genelde benim tavsiyem cross review. Yani Codex'e yaptırdığımız bir şeyi,
+
+00:40:21.000 --> 00:40:25.000
+Claude'a yaptırıyoruz. Ya da Claude ile yaptığımız işi Codex'e devrediyoruz.
+
+00:40:25.000 --> 00:40:36.000
+Sadece birini kullanıyorsanız kendisiyle idare edebilirsiniz. Yine orada da eğer aynı modelle yürüyecekseniz, şunu tavsiye ediyorum: mesela bir tane daha Claude
+
+00:40:36.000 --> 00:40:39.000
+açtım.
+
+00:40:39.000 --> 00:40:53.000
+Bu arada benim şöyle bir şey var, onu da göstereyim size.
+
+00:40:53.000 --> 00:40:58.000
+Şimdi burada benim bu bash shell config dosyasının altında, bakın, burada bir alias tanımladım.
+
+00:40:58.000 --> 00:41:05.000
+Ben c yazdığım zaman otomatik şu başlıyor. Yani böyle şeyler yapabilirsiniz.
+
+00:41:05.000 --> 00:41:16.000
+Yani c'ye bastığım zaman otomatik olarak Claude başlıyor buradan. Ben modelimi yine default seçeyim, max olacak.
+
+00:41:16.000 --> 00:41:23.000
+Bu artık daha büyük bir model. Bunu böyle rename yapıp buna Opus diyeceğim. Rengini de
+
+00:41:23.000 --> 00:41:32.000
+şöyle bir cyan, color ile mavi yapayım. Bu arada burada color diye bir özellik var, burada da renk değiştirebiliyorsunuz.
+
+00:41:32.000 --> 00:41:41.000
+Mesela color, işte dediğiniz zaman bu bloğun rengi değişmeye falan başlıyor. Şimdi burada şu alias'a da artık adını sonra vereceğim.
+
+00:41:41.000 --> 00:41:49.000
+Yani bu neden? Sonra yaptırıp Opus'ta review edebilirim yani, burada dursun. Ya da Codex aynı şekilde durabilir.
+
+00:41:49.000 --> 00:41:57.000
+Bunlar da yine böyle yapabileceğiniz şeyler. Şimdi ne yaptı Opus, Codex'ten sonra? Bakalım ne dedi: tüm değişiklikler doğrulandı kardeşim, dedi.
+
+00:41:57.000 --> 00:42:05.000
+Kod beklendiği gibi uygulanmış, tamam mı? Bir ufak not, istersen düzelt dedi. Tamam, bizim için yeter.
+
+00:42:05.000 --> 00:42:16.000
+Okey, tamam, biz bunu ne yapacağız artık? Codex'e detaylı bir commit mesajı ile
+
+00:42:16.000 --> 00:42:20.000
+Commit diyoruz.
+
+00:42:20.000 --> 00:42:23.000
+Bu gelecek, bunu commit'leyeceksin.
+
+00:42:23.000 --> 00:42:24.000
+Orada şu önemli değil, bu sadece Python'un
+
+00:42:24.000 --> 00:42:34.000
+çalıştırdığımız cache dosyası. Hatta biraz önce bir arkadaş söylemişti, diyelim ki .gitignore,
+
+00:42:34.000 --> 00:42:38.000
+.gitignore oluştur.
+
+00:42:38.000 --> 00:42:50.000
+.gitignore dosyasını biliyor musunuz? Şimdi .gitignore dosyası arkadaşlar, bazı dosyaları ignore ettirmek için, tamam mı? .env gibi.
+
+00:42:50.000 --> 00:42:53.000
+Şu noktayla başlayan dosyaları git'e atmamanızı sağlıyor.
+
+00:42:53.000 --> 00:43:03.000
+Yani sadece lokal olarak kalıyor bunlar.
+
+00:43:03.000 --> 00:43:08.000
+Evet, bunu hemen temizliyoruz arkadaşlar, yine session'ımızı eski haline getiriyoruz. Bu yine bana soru soruyor.
+
+00:43:08.000 --> 00:43:18.000
+Gördüğünüz gibi aynı şekilde yine bir permission şeyi var.
+
+00:43:18.000 --> 00:43:33.000
+Onun da skip etme şansınız var.
+
+00:43:33.000 --> 00:43:41.000
+Neydi? Dangerously skip permissions, Codex'te de skip sandbox diye bir komut var.
+
+00:43:41.000 --> 00:43:46.000
+Bununla başlattığımızı söyledik. Sondan sonra burada yine soruyor. Yani sorma diyorsun,
+
+00:43:46.000 --> 00:43:48.000
+Soruyor.
+
+00:43:48.000 --> 00:43:55.000
+Bu böyle her şeyi soruyor. Hani Claude da böyle bundan sonra "sana bunu sormayayım" diyebiliyor,
+
+00:43:55.000 --> 00:44:02.000
+"Bundan sonra commit komutlarını sormayayım" dediği gibi değil, bu her şeyi soruyor. Bunu da şöyle bir daha başlatalım.
+
+00:44:02.000 --> 00:44:10.000
+Codex'i bu arada bir daha başlattınız, artık ne oluyor? Yeni bir session'a başlıyorsunuz.
+
+00:44:10.000 --> 00:44:16.000
+Eğer resume derseniz, öncekine geri dönebiliyorsunuz. Bakın bu da bir özellik.
+
+00:44:16.000 --> 00:44:28.000
+Bunu da göstereyim. Şimdi sondayız ya. Şimdi resume dediğiniz zaman, yani devam et, bu size hangisinden devam edeyim diye soruyor. Buradan eskiden kalan şeylere devam edebilirsiniz.
+
+00:44:28.000 --> 00:44:31.000
+Böyle.
+
+00:44:31.000 --> 00:44:38.000
+Daha önce yapmamış mıyız? Bu bütün Claude işlemlerini aldı.
+
+00:44:38.000 --> 00:44:48.000
+Revert dediğimiz zaman da buradaki o session içerisindeki eski bir noktaya dönebiliyoruz.
+
+00:44:48.000 --> 00:44:52.000
+Oradan devam edebiliyoruz.
+
+00:44:52.000 --> 00:45:01.000
+Şimdi bir şey daha anlatacağım burada. .gitignore dosyası eklendi.
+
+00:45:01.000 --> 00:45:08.000
+.gitignore neleri ignore ediyor? İşte Python cache dosyaları, .venv,
+
+00:45:08.000 --> 00:45:16.000
+.env dosyaları, gerekli olan, Python için gereken şeyleri ekledi.
+
+00:45:16.000 --> 00:45:23.000
+Tamam, şimdi artık burada OpenAI key falan görmeyeceğiz git'te.
+
+00:45:23.000 --> 00:45:28.000
+Evet şimdi biz, tabii çalıştırmadık, çalıştırayım. Sistem prompt'unu eklemiştik.
+
+00:45:28.000 --> 00:45:37.000
+İlave sıfırlayayım, tekrar bir çalıştırayım. Tekrar gelelim, tekrar bunu başlatalım.
+
+00:45:37.000 --> 00:45:50.000
+Tekrar diyelim ki şuraya ben bir şey yapıştırmıştım, onu yapayım.
+
+00:45:50.000 --> 00:46:00.000
+Bakalım, sistem çalışıyor, harika.
+
+00:46:00.000 --> 00:46:07.000
+Evet, şu ana kadar sorusu olan var mı, yoksa devam edelim mi?
+
+00:46:07.000 --> 00:46:12.000
+Şimdi çok önemli bir komut var. Buyurun Güner Bey.
+
+00:46:12.000 --> 00:46:17.000
+Siz iş yerinde hep İngilizce kullanıyorsunuz, değil mi? Komutları vesaire, konuşurken.
+
+00:46:17.000 --> 00:46:19.000
+Ben öyle kullanıyorum.
+
+00:46:19.000 --> 00:46:24.000
+Türkçe konuşunca token sayısı artıyor mu yani? Arkada daha çok token mı okuyacak?
+
+00:46:24.000 --> 00:46:27.000
+Bu önemsiz.
+
+00:46:27.000 --> 00:46:38.000
+Çok önemsiz. Yani kaliteyle alakalı da çok bir şey yok. Hilal, sen Türkçe kullanıyordun, değil mi? Büyük bir fark hissediyor musun? Türkçe kullanınca daha kötü çalışıyor diye?
+
+00:46:38.000 --> 00:46:43.000
+Yok hocam, hissetmiyorum. Bence aynı, değişen bir şey yok yani.
+
+00:46:43.000 --> 00:46:44.000
+Yani yeterince iyi modeller arkadaşlar. Biz bir önceki derste aslında İngilizce biraz daha iyi dedik.
+
+00:46:44.000 --> 00:46:59.000
+Evet, yani bu modelde, bu agent'larda değil ama genel itibariyle, daha fazla İngilizce kelime ile eğitildiği için İngilizcede daha iyi yani.
+
+00:46:59.000 --> 00:47:10.000
+Ve İngilizce sonuçlarda da, normalde de ben işyerinde vesaire, bir de çalıştığım insanlar yabancı olduğu için ve komutlar falan her şey İngilizce olduğu için,
+
+00:47:10.000 --> 00:47:17.000
+dolayısıyla İngilizce kullanıyorum ben. Ama çok fark etmiyor. Şimdi bir konuya değineceğim.
+
+00:47:17.000 --> 00:47:22.000
+Init diye bir komut var arkadaşlar, bu çok önemli. Şimdi bu init komutu bir tane CLAUDE.md dosyası oluşturuyor.
+
+00:47:22.000 --> 00:47:32.000
+Tamam, bu dosya sizin kod tabanınızla alakalı, kodunuzla alakalı bir dökümantasyon oluşturuyor.
+
+00:47:32.000 --> 00:47:37.000
+Ve bu CLAUDE.md dökümantasyonu projenin hafızası gibi. Ve bunu her çalıştığında okur
+
+00:47:37.000 --> 00:47:50.000
+Claude bunu modele gönderiyor. Şimdi biz bunu çalıştıralım. Bu init komutunu aynı şekilde Codex'te de çalıştıralım.
+
+00:47:50.000 --> 00:47:57.000
+Codex'teki init, Claude'unkinin aksine, AGENTS.md dosyası oluşturuyor.
+
+00:47:57.000 --> 00:48:02.000
+Tamam, tüm bunlar çalışsınlar.
+
+00:48:02.000 --> 00:48:03.000
+Şimdi dosyaları okuyor, ne var ne yok, nasıl çalışıyor, onlara bakıyor, projenin tüm içeriğine bakıyor.
+
+00:48:03.000 --> 00:48:21.000
+İşte Python var, Flask var, ondan sonra bir frontend var.
+
+00:48:21.000 --> 00:48:27.000
+Oğuzhan Hocam!
+
+00:48:27.000 --> 00:48:28.000
+Buyurun.
+
+00:48:28.000 --> 00:48:39.000
+Kusura bakmayın, ses gelmediği için hareket ettim. Mesela Claude, Codex'in AGENTS.md'sini anlıyor mu veya tersi oluyor mu biliyor musunuz?
+
+00:48:39.000 --> 00:48:45.000
+Oku derseniz okuyor, otomatik okumuyor yani. Claude neyi? CLAUDE.md'yi Claude her seferinde okuyor.
+
+00:48:45.000 --> 00:48:50.000
+AGENTS.md'yi Codex her seferinde okuyor ve sistem prompt'unun içerisine koyuyor.
+
+00:48:50.000 --> 00:48:51.000
+Hm.
+
+00:48:51.000 --> 00:48:56.000
+Mutlaka, her seferde yani. Ama AGENTS.md'ye de git bak dersen okur.
+
+00:48:56.000 --> 00:49:05.000
+Yani anlıyorlar neticede, birbirlerinin yazdıklarını anlıyorlar. Tamam, harika, sağ ol.
+
+00:49:05.000 --> 00:49:09.000
+Ama 2 tane model kullanıyorsanız ikisini birden yapmanız lazım. Şimdi eğitim sürecindeyiz ya, neyse.
+
+00:49:09.000 --> 00:49:17.000
+Bakalım ne yazmış, bir markdown dosyası formatında arkadaşlar.
+
+00:49:17.000 --> 00:49:22.000
+Repository'nin detayları var. Proje yapısı, modüller, modül organizasyonu. Bu uygulama ufak bir Flask uygulaması diyor.
+
+00:49:22.000 --> 00:49:29.000
+Statik bir frontend var diyor. API var diyor, Flask'ta diyor.
+
+00:49:29.000 --> 00:49:37.000
+OpenAI client'ı var diyor. index.html işte ve temel endpoint'ler. Quickstart'ta Python'ın environment'ı nasıl kurulacağı, işte nasıl bir ortam vereceğinizle alakalı.
+
+00:49:37.000 --> 00:49:42.000
+İşte nasıl install edeceğinle alakalı, projeyi nasıl çalıştıracağınla alakalı instruction'ları var.
+
+00:49:42.000 --> 00:49:43.000
+Coding style, naming convention, işte Python 3 ile çalışıyoruz.
+
+00:49:43.000 --> 00:49:53.000
+İşte 4 space tanımı var, function tanımı var. Testing işte şunla yapabilirsin. Commit ve pull request
+
+00:49:53.000 --> 00:49:59.000
+guideline'ları şöyle yap falan diyor. Bunu böyle oluşturdu. Şimdi Claude'unki
+
+00:49:59.000 --> 00:50:08.000
+biraz daha yavaş kaldı. Bunu commit'leyelim.
+
+00:50:08.000 --> 00:50:12.000
+Commit diyelim mi? Bu commit'lesin.
+
+00:50:12.000 --> 00:50:21.000
+Bu hala okuyor diye biliyorum. Bu arada, fark ettiyseniz, Codex hızlı bir model.
+
+00:50:21.000 --> 00:50:27.000
+Yani GPT-5.5, hızlı 5.4 numaralı hızlı modeller, 5.2 ile mesela.
+
+00:50:27.000 --> 00:50:52.000
+Özellikle kıyasladığım zaman. Bayağı hızlı modeller ve gayet iyi çalışıyorlar. Yani Codex bayağı iyi model diyebilirim.
+
+00:50:52.000 --> 00:50:59.000
+Evet.
+
+00:50:59.000 --> 00:51:04.000
+Şimdi bir özelliği daha göstereceğim. Bunu yaparken buradan başlayalım.
+
+00:51:04.000 --> 00:51:10.000
+Update mı yapılır şimdi? Basit bir şey için kullanalım. Öyle yapalım. Orada birden fazla şey oluşturabilirsiniz.
+
+00:51:10.000 --> 00:51:20.000
+Arkadaşlar hiç problem değil, bir sürü şey oluşturabilirsiniz.
+
+00:51:20.000 --> 00:51:27.000
+Medium ile devam edelim. Mesela şimdi burada voice ile kullanılan bir özellik var arkadaşlar. Ben çok kullanmayı tavsiye etmiyorum ama mesela burada kullanacağız.
+
+00:51:27.000 --> 00:51:39.000
+Fena değil bu voice. Şu anda Claude zaten init'i bitirmiş.
+
+00:51:39.000 --> 00:51:45.000
+Şu anda init'i bul, bunun config'ine girerseniz eğer, /config ile config'e özelliklerine giriyorsunuz.
+
+00:51:45.000 --> 00:51:49.000
+Şurada bir language ayarı var.
+
+00:51:49.000 --> 00:51:56.000
+Language'ı ben Türkçe olarak ayarladım. Siz artık Türkçe konuşup komut verebilirsiniz.
+
+00:51:56.000 --> 00:51:59.000
+Tamam, şimdi mesela onu yapalım.
+
+00:51:59.000 --> 00:52:04.000
+Orada CLAUDE.md geldi. Çünkü CLAUDE.md dediğimizde ne yaptı? Geliştirme ortamı dedi.
+
+00:52:04.000 --> 00:52:14.000
+O buradan başladı: nasıl çalıştırırsın, mimari. Bak, çok daha böyle basit bir şey oluşturdu.
+
+00:52:14.000 --> 00:52:19.000
+Commit diyelim.
+
+00:52:19.000 --> 00:52:26.000
+Bu da CLAUDE.md eklendi diye commit'lesin.
+
+00:52:26.000 --> 00:52:36.000
+Bunu commit'ledi. Ne diyeyim? Buradan devam edelim. Voice'la diyelim ki şimdi konuşarak komut vereceğiz.
+
+00:52:36.000 --> 00:52:41.000
+Konuşurken arkadaşlar, Space tuşuna basılı tuttuğumuz zaman bu
+
+00:52:41.000 --> 00:52:45.000
+artık dinlemeye başlıyor.
+
+00:52:45.000 --> 00:52:51.000
+Şu ana kadar bir llm.py dosyasında LLM'i çağırdık. Şimdi bir asistan yapmak istiyorum.
+
+00:52:51.000 --> 00:52:53.000
+asistan.py dosyasında bir metot oluştur ve llm.py dosyasının içerisindeki kodu kullanarak.
+
+00:52:53.000 --> 00:53:04.000
+Ve buna sadece conversation history'i ekleyerek bir asistan oluşturmak istiyorum.
+
+00:53:04.000 --> 00:53:15.000
+Bunun amacı, şu anda birlikte çalıştığımız öğrencilere asistanın aslında agent'tan farklı olarak sadece bir memory history'sinin olduğunu göstermek.
+
+00:53:15.000 --> 00:53:24.000
+Böyle, tabii konuşunca da böyle bir şey oluyor. Yani aslında ben böyle düşünerek yazmayı tercih ediyorum ama bakın, fena değil, llm.py'yi falan yazdı.
+
+00:53:24.000 --> 00:53:41.000
+Yani böyle asistan.py falan yazdı. Ama bu benim tabii konuşmamla alakalı.
+
+00:53:41.000 --> 00:53:46.000
+Ama konuşarak da böyle komut verebilirsiniz.
+
+00:53:46.000 --> 00:53:55.000
+Buradaki amacımız şu, bunu yaptırdığım şey şu: asistan dediğimiz şey arkadaşlar, OpenAI Playground'da gösterdiğim gibi aslında.
+
+00:53:55.000 --> 00:54:07.000
+Şu anda biz LLM'de yani burada her seferinde bunları gönderiyoruz ya? Şimdi, artık bu soruyu ve cevabı bir tane memory'e koyacağız.
+
+00:54:07.000 --> 00:54:16.000
+Memory dediğimde, bir tane array'e koyacağız ve devamlı onu tekrar tekrar göndereceğiz.
+
+00:54:16.000 --> 00:54:26.000
+Yani o session bitene kadar göndereceğiz. Dolayısıyla onu bir asistan haline getireceğiz. Yani asistanın LLM'den tek farkı sadece conversation history'sinin olması.
+
+00:54:26.000 --> 00:54:31.000
+Şimdi bakalım ne dedi.
+
+00:54:31.000 --> 00:54:35.000
+Asistan sınıfı oluşturdum dedi.
+
+00:54:35.000 --> 00:54:43.000
+Başlangıç noktasına bakalım ne yapmış. Bakın, bu asistan bir model alıyor, system instruction alıyor.
+
+00:54:43.000 --> 00:54:51.000
+Modeli alıyor, sonra bu init fonksiyonunu ilk defa çalıştırdığında böyle modeli initialize ediyor.
+
+00:54:51.000 --> 00:55:00.000
+Farklı olarak bak, şöyle bir self.history adında bir tane, bu Conversation History dediğimiz sohbetin tarihçesini de tutuyor.
+
+00:55:00.000 --> 00:55:07.000
+Bir liste tutuyor ve bunun içerisine neyi koyuyor? Zaten sistem mesajımız olacağı için onu koyuyor.
+
+00:55:07.000 --> 00:55:14.000
+System instruction'ını aldı. Sonra sohbet metodu mesajı almaya başladı artık. Bunu çağırdığınızda kullanıcının prompt'unu alıyor,
+
+00:55:14.000 --> 00:55:26.000
+yine buraya, daha önce demiştik ya, arkaya ekliyor, bunu ekliyor, sonra çağırıyor ve devam ediyor.
+
+00:55:26.000 --> 00:55:33.000
+Yani bunu çağırmaya devam ediyor. Şimdi burada ne yok? Burada asistan oluşturdu ama başka bir şey yok.
+
+00:55:33.000 --> 00:55:38.000
+Endpoint ve frontend'de herhangi bir şey yok. Şimdi buradan devam edelim.
+
+00:55:38.000 --> 00:55:43.000
+Buna diyelim ki, okey,
+
+00:55:43.000 --> 00:55:47.000
+Konuşarak devam edelim.
+
+00:55:47.000 --> 00:55:54.000
+Tamam, bu güzel olmuş ama şimdi bunu çağırabilmemiz gerekiyor. O yüzden çağırabileceğimiz bir sayfa oluşturur musun?
+
+00:55:54.000 --> 00:56:03.000
+Endpoint'lerini düzenle ve streaming edecek şekilde düzenle ve dosyayı oluştur. Herhangi bir sorun varsa bana sor.
+
+00:56:03.000 --> 00:56:11.000
+Şimdi burada da, bir şey daha göstereceğim. Bu komutu verdiğimizde, bana soru sor dedim.
+
+00:56:11.000 --> 00:56:16.000
+Önemli bir şey. Yani bana soru sor diyebilirsiniz. Çünkü o bazen,
+
+00:56:16.000 --> 00:56:24.000
+böyle boşlukları doldurmak için size soru sorabiliyor ve daha böyle sizden cevabı alarak yapabiliyor. Bir başka şey: burada bir düzenlemeyi buradan yaptık.
+
+00:56:24.000 --> 00:56:31.000
+Yani şurada bir şeyleri değiştirdik ama bu bazen zor olabilir. Ctrl+G komutuyla,
+
+00:56:31.000 --> 00:56:43.000
+arkadaşlar, şöyle bir editör açabilirsiniz, burada tamamen istediğiniz değişiklikleri yapabilirsiniz. Yani newline'lar falan terminalde biraz zor oluyor.
+
+00:56:43.000 --> 00:56:50.000
+Yani burada tamamen bunu, bir tane IDE'de de yapabilirsiniz.
+
+00:56:50.000 --> 00:56:59.000
+Bütün değişikliği Ctrl+G ile yapıp save ettiğim zaman, bu otomatik buraya kendisi geldi.
+
+00:56:59.000 --> 00:57:04.000
+Bu da önemli bir özellik. Codex'te de aynı şekilde çalışıyor.
+
+00:57:04.000 --> 00:57:11.000
+Şuna da değineceğim. Ama bakın, burada aşağıda, bu arada benim status'umda, bakın, yüzde 10 çıktı.
+
+00:57:11.000 --> 00:57:12.000
+Yani,
+
+00:57:12.000 --> 00:57:22.000
+Context limitim yüzde ona kadar geldi. Hangi modeli kullandığımı gösteriyor.
+
+00:57:22.000 --> 00:57:30.000
+Yani şu ufak bilgilerin önemi var. Bunların hiçbir anlamı boş değil arkadaşlar.
+
+00:57:30.000 --> 00:57:34.000
+Ne dedi? Önce bir frontend düzenleyeceğim dedi.
+
+00:57:34.000 --> 00:57:42.000
+Gerekli değişiklikleri yapıyor, ilk önce okuyor. Planım şu: asistan sınıfına bir metot ekleyeceğim,
+
+00:57:42.000 --> 00:57:47.000
+endpoint, frontend sayfası, ikinci endpoint ekleyeceğim, frontend'de asistan
+
+00:57:47.000 --> 00:58:04.000
+sohbet arayüzü oluşturacağım. Hepsini yazıyorum dedi ve yazmaya başladı.
+
+00:58:04.000 --> 00:58:10.000
+Frontend sayfasını oluşturuyorum dedi. Bir tane asistan sayfası ekleyecek buraya.
+
+00:58:10.000 --> 00:58:25.000
+
+00:58:25.000 --> 00:58:27.000
+Hocam, Ali Bey'in sorusu var herhalde.
+
+00:58:27.000 --> 00:58:28.000
+Buyurun, evet.
+
+00:58:28.000 --> 00:58:36.000
+Teşekkür ederim. Bakalım, son zamanlarda GPT'ye plan modunda okutturup yapması.
+
+00:58:36.000 --> 00:58:38.000
+Planı ona yaptırtmak.
+
+00:58:38.000 --> 00:58:44.000
+Evet, şimdi plan moduna bakıyordum falan, plan modunu anlatayım diye. Doğru, şimdi plan modundan birazdan bahsederiz.
+
+00:58:44.000 --> 00:58:52.000
+Şimdi işlemi yaptı, bunu hemen çalıştırın bir bakalım.
+
+00:58:52.000 --> 00:59:00.000
+Yani genelde şöyle yapıyoruz: bunu mutlaka bir test ediyoruz, çalıştırıp aynı zamanda da bakıyoruz. Bu sefer Claude Code'u canlı kullanalım.
+
+00:59:00.000 --> 00:59:03.000
+Codex'te review komutu var.
+
+00:59:03.000 --> 00:59:06.000
+Bunu yine sıfırladım, Codex. Arkadaşlar, Codex'in bir review diye bir özelliği var, komutu var.
+
+00:59:06.000 --> 00:59:17.000
+Codex'in bunu başlattım. Neyi commit'leyeyim, neyi vereyim, bir şeyi review edeyim.
+
+00:59:17.000 --> 00:59:22.000
+Uncommitted changes'ları mı, commit mi diyoruz ki biz? En son commit'i review etmesini istediğiniz zaman,
+
+00:59:22.000 --> 00:59:26.000
+Yalnız bu review komutu, Claude'da da çalışıyor. Bu gidiyor, dosyayı alıyor, oraya yüklüyor falan,
+
+00:59:26.000 --> 00:59:35.000
+orada yükleyip review edip geliyor. Bu sefer de orada yapsın.
+
+00:59:35.000 --> 00:59:39.000
+Biz de asistana bakalım.
+
+00:59:39.000 --> 00:59:45.000
+Bak, asistan oldu. Yardımsever ve ilgili olsun. Sohbeti başlat.
+
+00:59:45.000 --> 00:59:50.000
+Naber.
+
+00:59:50.000 --> 01:00:00.000
+Neler yapabilirsin?
+
+01:00:00.000 --> 01:00:06.000
+Bir yemek tarifi ver.
+
+01:00:06.000 --> 01:00:17.000
+Şimdi bu artık bir asistan oldu. Yani bunun tek farkı,
+
+01:00:17.000 --> 01:00:22.000
+tek farkı arkadaşlar, history'yi kendi içerisinde tutması. Başka hiçbir fark yok.
+
+01:00:22.000 --> 01:00:27.000
+Yani biraz önceki LLM'den. Bunu yazmak bakın, bu kadar kolay.
+
+01:00:27.000 --> 01:00:33.000
+Yani API'yi çağırıyorsunuz, asistan mesajlarını ekliyorsunuz, bu kadar. Yani bu şu anda memory'de duruyor.
+
+01:00:33.000 --> 01:00:45.000
+Yani ben bunu restart ettiğim an bunu unutacak. Bu da asistan. Şimdi şunu büyütelim. Bakın, bu kadar ekstra dedi bize.
+
+01:00:45.000 --> 01:00:53.000
+Codex dedi ki, asistan fetch recipe simple, bu arada. Yani Türkçe sormadığım için İngilizce döndü işte.
+
+01:00:53.000 --> 01:00:59.000
+Eee.
+
+01:00:59.000 --> 01:01:05.000
+Light salata, kinoa ekledi. Ondan sonra 2 tane bulgusu var: memory büyüyebilir falan dedi.
+
+01:01:05.000 --> 01:01:15.000
+Şimdi bunu biz es geçiyoruz. Şimdi bunu commit'leyelim.
+
+01:01:15.000 --> 01:01:22.000
+Bunu böyle Türkçe söylemediğiniz zaman, İngilizce commit mesajı yazabilir.
+
+01:01:22.000 --> 01:01:23.000
+Bu ne işe yarar?
+
+01:01:23.000 --> 01:01:28.000
+Codex'i ekibi için klavyeyi kullanıyorsa 2 farklı ihtimalim var.
+
+01:01:28.000 --> 01:01:32.000
+Claude klavye kullanmıyor.
+
+01:01:32.000 --> 01:01:33.000
+Klavyeyi kullanmıyor.
+
+01:01:33.000 --> 01:01:42.000
+Aklıma soru gelmesin demiştim. Hazır almışken bir soru daha sorayım o zaman. Biz mesela henüz daha CLAUDE.md dosyası oluşturduk.
+
+01:01:42.000 --> 01:01:43.000
+Evet.
+
+01:01:43.000 --> 01:01:46.000
+Bu proje geliştikçe kendisini güncelliyor mu?
+
+01:01:46.000 --> 01:01:58.000
+Çok güzel soru. Şimdi etmiyor. O yüzden diyoruz ki, bakın, commit oluşturdu ya, diyoruz ki, şunu yapman gerekiyor.
+
+01:01:58.000 --> 01:02:11.000
+Her geliştirmeden sonra, commit'ten önce diyeceksin ki, şimdi yaptığın değişiklikler için
+
+01:02:11.000 --> 01:02:27.000
+CLAUDE.md ve AGENTS.md dosyalarını güncelle. Fakat o her zaman bunu unutacak.
+
+01:02:27.000 --> 01:02:31.000
+O yüzden,
+
+01:02:31.000 --> 01:02:36.000
+bu dosyalara
+
+01:02:36.000 --> 01:02:47.000
+aynı zamanda değişiklik sonrası
+
+01:02:47.000 --> 01:02:56.000
+kendilerinin güncellenmesi gerektiği ile
+
+01:02:56.000 --> 01:03:01.000
+ilgili komutu ekle.
+
+01:03:01.000 --> 01:03:02.000
+Şimdi burada bunu yaparsanız eğer, CLAUDE.md ve AGENTS.md her seferinde, her commit'ten sonra,
+
+01:03:02.000 --> 01:03:16.000
+modülleri çağırırken, bu yaptığımız değişikliklerden sonra bu güncellemeler olsun derseniz, bunu güncel tutabilirsiniz.
+
+01:03:16.000 --> 01:03:27.000
+Dolayısıyla bu CLAUDE.md'nin aslında bu eğitim setinde de kullanımına bir örnek. Yani her seferinde modellerin mutlaka yapmasını istediğiniz şeyleri bunların içerisinde tutabilirsiniz.
+
+01:03:27.000 --> 01:03:34.000
+Şu an komutlarımız varken neden böyle bu CLAUDE.md dosyalarına ihtiyacımız var? Pratik açıdan bakınca?
+
+01:03:34.000 --> 01:03:42.000
+Şimdi, bu MD dosyaları, siz her komutu gönderdiğiniz zaman Claude ilk önce gelip bunu okuyor ve bunu bağlam olarak koyuyor.
+
+01:03:42.000 --> 01:03:47.000
+Neden bunu koyuyor? Çünkü bağlam bilgisine ihtiyaç duyuyor. Yani bu nedir? Sen bir şey dedin ama,
+
+01:03:47.000 --> 01:03:54.000
+projenin neyle alakalı olduğunu bilmiyor, her seferinde yeniden gönderiyoruz ya, bağlam yok aslında. Dolayısıyla bunu okuyor.
+
+01:03:54.000 --> 01:03:56.000
+Bu memory, bu hafızanız, yani projenizin hafızası burada.
+
+01:03:56.000 --> 01:04:02.000
+Şu anda.
+
+01:04:02.000 --> 01:04:07.000
+Şimdi,
+
+01:04:07.000 --> 01:04:13.000
+Bu çok önemli arkadaşlar. Yani belki çok üzerinde durmuyoruz zaman az diye, ama bu mutlaka,
+
+01:04:13.000 --> 01:04:17.000
+git init gibi, init komutunu kullanıyoruz ya, Claude Code'da da Codex'te de.
+
+01:04:17.000 --> 01:04:24.000
+Git init gibi bunlarda da mutlaka bir init yapmanız lazım ve CLAUDE.md oluşturmanız lazım, AGENTS.md de oluşturmanız lazım.
+
+01:04:24.000 --> 01:04:41.000
+Aksi takdirde eğer yoksa ne olur? Yoksa yazdığınız komuttan sonra model gider, projeyi baştan aşağıya tekrar tarar: ne oluyor, ne bitiyor, ben nasıl çalışacağım? Bunu yapmaması için biz hazır buraya koyuyoruz zaten. Bu hazır gittiği için otomatik bir daha okumuyor. Yalnız bu CLAUDE.md'nin çok büyük olmaması gerekiyor.
+
+01:04:41.000 --> 01:04:51.000
+Ona da dikkat etmeniz lazım. Zaten model bir süre sonra kendisi uyarıyor, bu dosya çok büyüdü falan diyor.
+
+01:04:51.000 --> 01:04:59.000
+Sizi uyarıyor. Şimdi burada bu arada otomatik gitti, commit'ledi herhalde.
+
+01:04:59.000 --> 01:05:02.000
+Bakalım.
+
+01:05:02.000 --> 01:05:09.000
+Evet, otomatik git commit'ledi. Bakın ne yapmış? Diyor ki, asistan modülü ve sayfamız eklendi.
+
+01:05:09.000 --> 01:05:13.000
+CLAUDE.md değişikliğiyle alakalı bölüm eklendi. Bakalım ne eklemiş: Zorunlu kural. Bu dosyaları her zaman güncelle.
+
+01:05:13.000 --> 01:05:22.000
+Her kod değişikliğinin ardından commit yapmadan önce bu dosyaları güncelle. Şimdi Claude'a da dedim ki kardeşim, CLAUDE.md'yi de
+
+01:05:22.000 --> 01:05:27.000
+hem AGENTS.md'yi de güncelleyeceksin. AGENTS.md'de aynı şekilde bunları güncelliyor.
+
+01:05:27.000 --> 01:05:38.000
+Şimdi bakalım yapacak mı? Bunu tekrar temizledik. Şimdi ne yapalım? Şöyle bir değişiklik yapalım.
+
+01:05:38.000 --> 01:05:42.000
+Bunu da plan modda yapalım, plan modunu da göstermiş olalım.
+
+01:05:42.000 --> 01:05:49.000
+Plan modu için genelde daha büyük modeli kullanıyoruz. Şurada Shift+Tab'a 2 kere bastığımız zaman arkadaşlar plan moda geçiyor.
+
+01:05:49.000 --> 01:05:55.000
+Plan mod demek, sadece planlayacaksın, dosyalarda değişiklik yapmayacaksın demek, değil mi? Şimdi, Yavuz Bey'in sorduğu gibi,
+
+01:05:55.000 --> 01:06:15.000
+Şöyle yapalım: spec yazacaksın. Spec nasıl yazılır diyelim, spec yazalım beraber. Seninle yeni bir özellik için spec yazacağız.
+
+01:06:15.000 --> 01:06:19.000
+Sonra,
+
+01:06:19.000 --> 01:06:22.000
+Planını yapacağız.
+
+01:06:22.000 --> 01:06:33.000
+Bana sorularla başlayabilirsin.
+
+01:06:33.000 --> 01:06:43.000
+Şimdi ben dedim, geldi. Bana soru sor, bir spec yazalım, bir plan yapalım, ondan sonra kodu geliştirelim. Eğer büyük bir şey yapıyorsanız, bakın, büyük bir şey yapıyorsunuz,
+
+01:06:43.000 --> 01:06:44.000
+şurayı, şunu ekle, burayı buna ekle, bir de şunu şöyle yap falan diyorsanız plana gerek yok.
+
+01:06:44.000 --> 01:06:55.000
+Ama bir özellik ekleyeceksiniz. Büyük bir şey ekleyeceksiniz, o zaman planlama önemli. Mutlaka planlamayla başlayın.
+
+01:06:55.000 --> 01:07:01.000
+Şimdi geldi, dedi ki, bu arada bakın, bunun kendi otonomisi var. Bu gitti memory'sine bakıyor, orada bir şey var mı? Boş, henüz bir şey yok.
+
+01:07:01.000 --> 01:07:08.000
+Memory'de hangi özellik alanını kapsıyor? diye bana soru sormaya başladı.
+
+01:07:08.000 --> 01:07:28.000
+Ele aldığımız numarayı söyleyelim, asistan sayfası hangisi? Ben dedim ki, asistan sayfasına diyelim.
+
+01:07:28.000 --> 01:07:31.000
+Aslında çok farklı, özel hangi yöne odaklanmayı seçelim? Bu yine bana böyle sorularla gelmeye başlıyor.
+
+01:07:31.000 --> 01:07:44.000
+Hangisini istiyorsun? Ben şimdi kendim yazacağım buraya. En sonunda kendim yazacağım. Diyeceğim ki, ben asistan sayfasında
+
+01:07:44.000 --> 01:08:00.000
+thinking modelini kullanmak ve thinking text'ini de kullanıcıya göstermek istiyorum.
+
+01:08:00.000 --> 01:08:14.000
+Bu da model çıktısı gibi stream etmeli.
+
+01:08:14.000 --> 01:08:18.000
+Bu Claude ile ilgili bir anım var, bunu anlatayım Sevan.
+
+01:08:18.000 --> 01:08:19.000
+Hm.
+
+01:08:19.000 --> 01:08:25.000
+İlk başladığımda Claude'u klavyeden kullanıyorum, oraya Türkçe yazıyorum.
+
+01:08:25.000 --> 01:08:32.000
+Prompt'ları, şunu gördüm: o ilk başta kullanıcı yani, Türkçe'yi düzgün şekilde kullanmaya başladı diye.
+
+01:08:32.000 --> 01:08:40.000
+Çünkü çok yazım hataları ile veriyordum prompt'u, belki onun da şikayetini almıştır. Yani böyle bir şey gördüm.
+
+01:08:40.000 --> 01:08:41.000
+Evet.
+
+01:08:41.000 --> 01:08:46.000
+Orada bir defasında dedi ki, "Yine başladı Türkçe konuşmaya" der gibi, böyle hani seninle çekişir gibi filan.
+
+01:08:46.000 --> 01:08:48.000
+İlginç bir şeydi.
+
+01:08:48.000 --> 01:08:49.000
+
+01:08:49.000 --> 01:08:51.000
+Tripini attı yani.
+
+01:08:51.000 --> 01:08:52.000
+Ya.
+
+01:08:52.000 --> 01:08:58.000
+Anthropic bu hafta bir şey açıkladı. Anthropic'in bir araştırması vardı, daha önce derslerinde değinmiştik.
+
+01:08:58.000 --> 01:09:10.000
+Bir araştırma vardı, modelin kendi içerisinde anlayamayacağımız bir şekilde,
+
+01:09:10.000 --> 01:09:18.000
+Böyle sanki insanı kandıracak şekilde sonucu ayarlayacağı şekilde düşündüğü ile alakalı bir araştırması vardı. Belki hatırlarsanız eski derslerden.
+
+01:09:18.000 --> 01:09:30.000
+Şimdi, bu hafta bir şey yaptılar, bir araştırma duyurdular. Dediler ki, biz artık modelin arka tarafındaki bizim görmediğimiz şeyleri, yani biz reasoning text'i görüyoruz, sonucu da görüyoruz,
+
+01:09:30.000 --> 01:09:40.000
+ama ondan önceki bütün o aktivasyon, sonuç gelene kadar ki aradaki düşünme prosedürlerini gösterebileceğimiz şekilde bir şey yaptık.
+
+01:09:40.000 --> 01:10:06.000
+Geliştirme yaptık ve bundan sonra modelin aslında bir sonuca nasıl geldiğini artık görebiliyoruz. Yani, hani model aslında bir kara kutu içerisinde nelerin döndüğünü, o işte nöronlarda nasıl aktivasyonların geçtiğini ve nereden sonuca ulaştığını bilmiyoruz diyorduk ya, ne dediler ki biz artık onu görmeye başladık, bununla alakalı yeni geliştirmeler yaptık, onu böyle yine arayabilirsiniz.
+
+01:10:06.000 --> 01:10:17.000
+Burada da yine soru soruyor. Örnek vermeye çalışıyor, neyse, söyleyeyim mi?
+
+01:10:17.000 --> 01:10:23.000
+Herhalde o konuşma şeyi.
+
+01:10:23.000 --> 01:10:29.000
+Seçim yapsın.
+
+01:10:29.000 --> 01:10:36.000
+Onu artık görebiliyoruz. Ve biz daha önceki testimizdeki, yani şehir araştırmasına da baktık, modelin nasıl düşündüğünü öğrendik.
+
+01:10:36.000 --> 01:10:48.000
+Aslında o model bizim onu test için kullandığımızın farkındaymış, test için kullandığımız farklı olduğu için öyle bir yola gitmiş falan diye bir açıklama yaptılar.
+
+01:10:48.000 --> 01:10:54.000
+Evet, şimdi bu tabii, gördüğünüz gibi arkadaşlar 10.000 token kullandı. Plan modda bu sürüyor bu arada.
+
+01:10:54.000 --> 01:11:02.000
+Bir milyon context var ve Claude Opus'un 200.000 context'i var.
+
+01:11:02.000 --> 01:11:07.000
+Dolayısıyla 20.000 orada yüzde 10'a tekabül ederken burada bakın 40.000,
+
+01:11:07.000 --> 01:11:15.000
+yüzde dörde tekabül ediyor. Biraz daha zaman alan bir şey. Plan modundan sonra bana şunu soracak:
+
+01:11:15.000 --> 01:11:24.000
+Plan modundan sonra bana, plan modundan çıkıp geliştirmeye başlayayım mı diye soracak. Buna evet dersem, context'i böyle sıfırlıyor.
+
+01:11:24.000 --> 01:11:32.000
+Ve geliştirme moduna geçiyor. Alternatif olarak siz tamamen planı kopyalayıp artık başka bir yerde de kodlayabilirsiniz.
+
+01:11:32.000 --> 01:11:37.000
+İkisini de yapabilirsiniz. Saat 9:51.
+
+01:11:37.000 --> 01:11:41.000
+Esas yapmak istediğim şeyi,
+
+01:11:41.000 --> 01:11:47.000
+hemen yapalım bundan sonra.
+
+01:11:47.000 --> 01:11:58.000
+Mevcut yapıyı kavradım. Şimdi deep dive yapıyorum, implementasyon adımlarına geçiyorum.
+
+01:11:58.000 --> 01:12:08.000
+Şimdi bu burada devam etsin, biz bence diğer şeye geçelim. Şimdi Claude'a geçelim, buradan sonra ile devam edelim.
+
+01:12:08.000 --> 01:12:16.000
+Bu arada, ikisini birden aynı anda çalıştırırsanız da olur. Bazen aynı dosyalarda değişiklik yapacağı zaman bir şey olabilir.
+
+01:12:16.000 --> 01:12:32.000
+Conflict de olabilir. Onu ilerleyen, bir sonraki derste, aynı anda birden fazla feature'ı nasıl geliştirebilirsiniz, conflict'e girmeden, biraz daha profesyonel tarafa doğru
+
+01:12:32.000 --> 01:12:39.000
+önümüzdeki haftadan itibaren geçeceğiz. Önümüzdeki hafta biraz harness'a geleceğiz, biraz git worktree'ler,
+
+01:12:39.000 --> 01:12:47.000
+PR'lar, pull request'ler, böyle daha profesyonel yazılım geliştirme süreçlerine doğru geçiş yaparız.
+
+01:12:47.000 --> 01:12:56.000
+Şimdi o zaten plan mı oldu? Ben diyeceğim ki,
+
+01:12:56.000 --> 01:13:08.000
+Evet, evet. Şimdi de son aşamadaki agent'ımızı hazırlayacağız. Bu dosyayı yaparken mümkünse asistan.py dosyamızı kullanalım.
+
+01:13:08.000 --> 01:13:14.000
+Asistandan farklı olarak basit bir kodlama agent'ı olsun ve temel bazı araçları çalıştırabilsin.
+
+01:13:14.000 --> 01:13:19.000
+Şimdilik skill çalıştırmayalım, ama tool çağırabilsin. Agent'ımızın çağırdığı tool'ları ve sonuçlarını da
+
+01:13:19.000 --> 01:13:30.000
+arayüzde görelim. Basit bir şey olsun, eğitim amaçlı kullanacağız. Aslında LLM'in tool çağırabilen bir yapı olduğunu,
+
+01:13:30.000 --> 01:13:40.000
+bir nevi asistan olduğunu göstermek istiyorum. Bu tool'larla alakalı da, terminal olsun, dosya yazma, dosya okuma
+
+01:13:40.000 --> 01:13:52.000
+gibi tool'lar olsun içerisinde.
+
+01:13:52.000 --> 01:13:56.000
+Bu arada kod hala çalışıyor.
+
+01:13:56.000 --> 01:14:10.000
+Bir dakika bakalım.
+
+01:14:10.000 --> 01:14:15.000
+Şimdi verdiğim komutun böyle çok düzenli, düzgün, çok düşünülmüş bir şey olmadığını görüyorsunuz.
+
+01:14:15.000 --> 01:14:21.000
+Bunu şu anda neler yapabileceğimizle alakalı olarak yapıyorum. Normalde işte bir spec yazmaya başlamak lazım.
+
+01:14:21.000 --> 01:14:30.000
+Böyle bir spec'imizin olması lazım. Sonra bir plan dökümanımızın olması lazım.
+
+01:14:30.000 --> 01:14:34.000
+Sonra kodlamaya geçmemiz lazım. Ama biz burada kolay görevleri çok hızlı bir şekilde verdiğimiz için biraz da böyle,
+
+01:14:34.000 --> 01:14:44.000
+nasıl çalışıyor bunlar onu göstermeye çalıştığımız için biraz böyle hızlı geçiyorum. Yoksa profesyonel olarak böyle bir şey yaptığınız zaman mutlaka spec yazmak,
+
+01:14:44.000 --> 01:14:51.000
+plan yazmak önemli.
+
+01:14:51.000 --> 01:15:03.000
+Çünkü çok az vaktimiz kaldı.
+
+01:15:03.000 --> 01:15:12.000
+Evet, şu ana kadar ne düşünüyorsunuz? Böyle şaşırdığınız, ya da bazılarını mutlaka biliyorsunuzdur, ya da böyle yeni öğrendiniz.
+
+01:15:12.000 --> 01:15:17.000
+Ya da sorunuz?
+
+01:15:17.000 --> 01:15:32.000
+Benim sadece gördüğüm bir şey var: bu AI providers böyle çalışırken context management'ı çok iyi yapmak gerekiyor galiba.
+
+01:15:32.000 --> 01:15:33.000
+Evet.
+
+01:15:33.000 --> 01:15:37.000
+Yani her iki taraftan farklı şekilde dokunuyorsunuz, çok çok büyük projelerde, şimdi bu küçük bir proje,
+
+01:15:37.000 --> 01:15:43.000
+ama büyük projelerde sanki daha dikkatli olmak lazım diye düşünüyorum.
+
+01:15:43.000 --> 01:15:51.000
+Evet, işte dediğim gibi. Yani bir disiplin gerektiriyor. Yani burada da agent ile yazılım geliştirmek de bir disiplin gerektiriyor.
+
+01:15:51.000 --> 01:15:58.000
+Yani context'i ve memory'i kontrol etmek ve güncellemek, bir spec ile başlamak.
+
+01:15:58.000 --> 01:16:07.000
+O spec'i oluştururken mutlaka agent'a projeyi anlayacağı, analiz edeceği, daha sonra size sorular soracağı,
+
+01:16:07.000 --> 01:16:14.000
+sizin o cevaplarınızla beraber bir spec oluşturacağı, o spec'i mutlaka review etmeniz gerektiği,
+
+01:16:14.000 --> 01:16:21.000
+yani o spec'i bir şekilde, spec'i belki sizin mutlaka approve etmeniz lazım.
+
+01:16:21.000 --> 01:16:26.000
+Sonra plan oluştur, o planın da bir review yapılması lazım. Aslında orada hep Claude Code kullanıyorum.
+
+01:16:26.000 --> 01:16:36.000
+Ben plan oluştuğunda planı da böyle kabaca gözden geçiriyorum. Bir de artık o kadar çok fazla dosya yazmaya başlıyor ki artık onu bir insanın review etmesi daha fazla vakit alıyor.
+
+01:16:36.000 --> 01:16:43.000
+Kabaca review verebiliyorsun, dolayısıyla mutlaka onun test edilmesi lazım, bir PR oluşturulacak,
+
+01:16:43.000 --> 01:16:49.000
+o PR review edilecek falan derken böyle uzun bir süreç alıyor aslında bütün bunlar.
+
+01:16:49.000 --> 01:16:59.000
+Bu spec'ler, agent'lar, plan, bunlar için şirkette ayrı bir context tutuyor musunuz, diğer projelerden de kullanıyor musunuz, yoksa proje için ayrı mı
+
+01:16:59.000 --> 01:17:04.000
+geliştirme yapıyorsunuz?
+
+01:17:04.000 --> 01:17:05.000
+Ne için tam olarak?
+
+01:17:05.000 --> 01:17:13.000
+Tipik kullanıyorsunuz ya da mesela farklı projede base prompt'ları kullanabilirsiniz.
+
+01:17:13.000 --> 01:17:22.000
+Veyahut da mesela PR template'leri olabilir. Bunları ayrı bir repo olarak tutup daha sonra işlere göre prompt'ları eşleştiriyor musunuz, yoksa?
+
+01:17:22.000 --> 01:17:23.000
+Şimdi şöyle, aslında bununla alakalı bir şey oluşturmuşlar, içinde belirli stiller var, belli prompt'lar falan var.
+
+01:17:23.000 --> 01:17:36.000
+Belli instruction'lar var. Bu şu anda zorunlu değil ama bunlar var.
+
+01:17:36.000 --> 01:17:45.000
+Bazıları zorunlu olarak tutuyor ama biz de zorunlu değil ama kullanabilirsiniz denilen bir yapı var.
+
+01:17:45.000 --> 01:17:48.000
+Buyurun Fevzi Bey.
+
+01:17:48.000 --> 01:17:57.000
+Şahsi tecrübenizi soruyorum bu şeyle ilgili, anlamlı bir hafıza oluşturma ile ilgili büyük projelerde.
+
+01:17:57.000 --> 01:18:27.000
+Proje yapıp çalışıyorsunuz orada, özellikle kullandığınız bir şey var mı, o branch'te yapılan hafızayı korumak için her seferinde işte tekrar tekrar dönüp sormamak için, veya bazen işte context'i dolduramıyorsunuz, doldurunca o şeylerini kaybediyorsunuz, tekrar mesela onu yapmak istemiyorsunuz ama işte hem olsun hem de çok şişmesin gibi, böyle onunla ilgili nasıl kullandığınıza dair bir şey var
+
+01:18:27.000 --> 01:18:28.000
+mı.
+
+01:18:28.000 --> 01:18:31.000
+Açıkçası, burada commit'ler zaten
+
+01:18:31.000 --> 01:18:44.000
+bir hafıza tutuyor. Yani burada bütün bu commit'ler, ben Claude'a desem ki, git en son yapılan 10 tane commit'i oku, tamam mı, orada ben şunları yapmaya çalıştım.
+
+01:18:44.000 --> 01:18:45.000
+Ya da git, şu branch'e geç, o branch'e baktım ben zaten, git o altyapı branch'e, diyebiliyor.
+
+01:18:45.000 --> 01:18:55.000
+O branch'te o değişiklikler var, commit'ler var, o branch'e git, o değişikliklere bak.
+
+01:18:55.000 --> 01:19:01.000
+Şimdi de şöyle yapacağız falan desen, o gidip onu okuyor ve hepsini alıyor. Ayrı bir yerde tutmana gerek yok zaten.
+
+01:19:01.000 --> 01:19:11.000
+Git orada yine. Spec'leri de eğer git issues olarak iş olarak oluşturursanız orada tutabilirsiniz. Yani depoda specs diye, specs folder'ında tutabilirsiniz.
+
+01:19:11.000 --> 01:19:17.000
+Bir markdown dosyası olarak daha sonra dönebilmek için. Ya da git'te direkt bir issue oluşturabilirsiniz.
+
+01:19:17.000 --> 01:19:41.000
+Wiki'de tutabilirsiniz. Bu tamamen size kalmış. Ama ekstra böyle bir hafızaya, şunu da diyebilirsin, bunu hafızaya yaz dediği zaman, o otomatik olarak Claude dışındaki proje hafızasına da atıyor, eğer hafıza modu açıksa onu da yapabilirsiniz. Ama ben genel itibariyle git commit'leri, branch'ler ve issues'lar bana yetiyor.
+
+01:19:41.000 --> 01:19:42.000
+Teşekkür ederim.
+
+01:19:42.000 --> 01:19:51.000
+Bir çalıştıralım. Review falan etmedik. Hızlıca bakalım.
+
+01:19:51.000 --> 01:19:59.000
+Bu da agent adında bir tane sayfa oluşturdu.
+
+01:19:59.000 --> 01:20:05.000
+Evet, kodlamayı bitirsin tam ve eksiksiz. Başlat, bir agent'a görev verelim.
+
+01:20:05.000 --> 01:20:21.000
+Bu proje için uygun bir eğitim dosyası oluştur.
+
+01:20:21.000 --> 01:20:26.000
+Bakın, bu reasoning model değil, Haiku.
+
+01:20:26.000 --> 01:20:44.000
+Sorular sordu. Projeyi analiz et ve tüm soruların cevabını kendin bul.
+
+01:20:44.000 --> 01:20:51.000
+Bu terminale gitti, listeledi.
+
+01:20:51.000 --> 01:20:55.000
+Tabii nerede çalışıyor şu anda?
+
+01:20:55.000 --> 01:21:02.000
+Bakalım.
+
+01:21:02.000 --> 01:21:18.000
+Burada mı, soruyor. Hangi dizindesin?
+
+01:21:18.000 --> 01:21:31.000
+He.
+
+01:21:31.000 --> 01:21:39.000
+Bayağı bir coding agent oldu yani. Bakın listeleme yapıyor, terminal çalıştırıyor.
+
+01:21:39.000 --> 01:21:46.000
+Bakın, izinle yazdı.
+
+01:21:46.000 --> 01:21:54.000
+Yani agentic coding dediğimiz şeyi gözünüzde büyütmeyin.
+
+01:21:54.000 --> 01:22:02.000
+Bakın nasıl çalışıyor. Şimdi bir tool'larımız var burada. Bu arada OpenAI'ın böyle tool'ları zaten otomatik aldığı bir yapısı var. Tool'lar var.
+
+01:22:02.000 --> 01:22:06.000
+Neler var? Terminal, parametreleri bunlar. Bu arada tool izni falan kullanmadı, her şeyi burada yazdı.
+
+01:22:06.000 --> 01:22:14.000
+Biraz böyle çalıştı ama olsun. Terminal tool'umuz var, bir fonksiyon.
+
+01:22:14.000 --> 01:22:19.000
+Bir dosya okuma fonksiyonu var, bir de dosya yazma fonksiyonu var.
+
+01:22:19.000 --> 01:22:25.000
+Terminal'i, bakın, bu fonksiyonu çalıştırıyor. Terminal olduğu zaman gidip bu metodu çalıştırıyor.
+
+01:22:25.000 --> 01:22:32.000
+Bu da Python'un içerisinde subprocess adında, terminal çalıştıracağı bir
+
+01:22:32.000 --> 01:22:34.000
+tool var. Sonuç geliyor, onu çalıştırıyor. Dosya okumak için yine Python'un open fonksiyonu,
+
+01:22:34.000 --> 01:22:43.000
+Dosyanın adını yolunu veriyorsunuz. Dosyayı açıp içini okuyor ve geri dönüyor.
+
+01:22:43.000 --> 01:22:47.000
+Modele. Dosyayı yazmak için de. Yine directory yoksa directory yazıyor.
+
+01:22:47.000 --> 01:22:52.000
+Yoksa dosya oluşturup yazıyor. Basit 3 tane metot, bunları tool olarak veriyor. Daha sonra agent kendi içerisinde aynı şekilde,
+
+01:22:52.000 --> 01:23:06.000
+yani asistan gibi kendi bir history'si var, asistandaki gibi. Asistandan tek farkı bunun içerisinde tool'ların da olması.
+
+01:23:06.000 --> 01:23:14.000
+Yani bu tool'larla artık iş bitene kadar, sizin istediğiniz görevi bitirene kadar basit bir döngü.
+
+01:23:14.000 --> 01:23:21.000
+Tool diyoruz buna. Basit bir şekilde dönüyor. Ne yapıyor? Sizin user prompt'unuzu alıyor,
+
+01:23:21.000 --> 01:23:33.000
+bu mesajı ekliyor, sonra dönmeye başlıyor. Burada hatta bir maksimum adım kontrolü yapılabilir, çok böyle uzun uzun dönmesin falan diye, ama gidiyor, mesajlarınızı tool'larla beraber modele gönderiyor.
+
+01:23:33.000 --> 01:23:40.000
+Model kendi içerisinde hangi tool'u çalıştırması gerektiğini biliyor ve cevabı dönüyor. Ve bu cevaba göre,
+
+01:23:40.000 --> 01:23:47.000
+eğer bu cevabın içerisinde bir tool call varsa, hemen bunu yine hafızaya ekliyor.
+
+01:23:47.000 --> 01:23:53.000
+Content'e göre, eğer tool call varsa gidiyor, bu tool call'ı çalıştırıyor, yine bir loop'un içerisinde ve cevabı geri dönüyor.
+
+01:23:53.000 --> 01:23:59.000
+Yani agent dediğimiz şey de aslında böyle bu kadarlık bir şey.
+
+01:23:59.000 --> 01:24:06.000
+Bu arada, daha önce söylediğimiz gibi gitti, CLAUDE.md ve AGENTS.md'yi gördüğünüz gibi güncelledi.
+
+01:24:06.000 --> 01:24:11.000
+Yani ekstra bunu güncelle demenize gerek kalmadı.
+
+01:24:11.000 --> 01:24:18.000
+Evet, böyle basit bir agent oluşturduk.
+
+01:24:18.000 --> 01:24:23.000
+Bir coding agent yapmış olduk.
+
+01:24:23.000 --> 01:24:31.000
+Bunu ben commit'leyeyim. Hatta şöyle diyeyim: commit'le, son yaptığımız commit.
+
+01:24:31.000 --> 01:24:40.000
+Bu arada Opus'ta geldi, biraz önceki şeyi yaptı, planı yaptı, kritik dosyalar dedi.
+
+01:24:40.000 --> 01:24:49.000
+Ondan sonra, istiyorsan dedi yapayım, istiyorsan kendin edit et, istiyorsan bypass permission ederek hemen yapmaya başlayayım falan dedi.
+
+01:24:49.000 --> 01:24:56.000
+İstiyorsan ayrıca, Claude'un Ultrathink falan diye bir şeyi var beta'da, istiyorsan bir daha orada çalıştırayım falan dedi.
+
+01:24:56.000 --> 01:25:03.000
+Şunu diyebilirsiniz: bu plan dökümanını kaydetsin, bunu daha sonra kullanacağım.
+
+01:25:03.000 --> 01:25:15.000
+Mesela repoda bir dosya kalabilir buradan.
+
+01:25:15.000 --> 01:25:21.000
+Evet, saat onu 5 geçiyor. Vaktimizi çok iyi kullanamadık ama en azından live bir şekilde,
+
+01:25:21.000 --> 01:25:30.000
+Claude Code'u biraz kullandık, temel özelliklerine girdik, biraz ısındık.
+
+01:25:30.000 --> 01:25:40.000
+Agent nedir, asistan nedir, LLM nedir, onları biraz tanıma imkanımız oldu. Dolayısıyla,
+
+01:25:40.000 --> 01:25:52.000
+bir giriş yapmış olduk diye düşünüyorum. Arkadaşlar, depoyu paylaşacağım, ödevinizle beraber.
+
+01:25:52.000 --> 01:25:55.000
+Şu formu chat'ten gönderiyorum. Bu ödevde de,
+
+01:25:55.000 --> 01:26:08.000
+şimdi açayım ben, hatta ödevde ne var ona da bakalım.
+
+01:26:08.000 --> 01:26:13.000
+Yanlış bir şey yaptım, evet.
+
+01:26:13.000 --> 01:26:21.000
+Burada yaklaşık, bu briefing mi?
+
+01:26:21.000 --> 01:26:23.000
+
+01:26:23.000 --> 01:26:32.000
+Geçen hafta gözden kaçırdığınız olursa onu da bu hafta yapalım. Bugün, yarın gönderirseniz olur.
+
+01:26:32.000 --> 01:26:37.000
+Tamam, anladım.
+
+01:26:37.000 --> 01:26:40.000
+Geçen haftanın ödevini.
+
+01:26:40.000 --> 01:26:45.000
+Yükleyemedik de, onu yükleyebilelim. Bugün, yarın da onu sorarsın.
+
+01:26:45.000 --> 01:26:48.000
+Evet, şimdi burada arkadaşlar, şu ödev. Bu derste,
+
+01:26:48.000 --> 01:26:55.000
+işte LLM'de, agent'larımız vesaire. Ben şimdi bu GitHub reposunu fork
+
+01:26:55.000 --> 01:26:59.000
+edeceğim, yayınlayacağım, Discord'dan yayınlayacağım. Yani adresi,
+
+01:26:59.000 --> 01:27:05.000
+onu fork edip,
+
+01:27:05.000 --> 01:27:09.000
+Burada da.
+
+01:27:09.000 --> 01:27:12.000
+Maraton göstermiyor.
+
+01:27:12.000 --> 01:27:14.000
+Evet, şurada bu GitHub hesabındaki yani bu repoyu fork edersiniz ya da işte kopyalarsınız.
+
+01:27:14.000 --> 01:27:19.000
+Fark etmez. Yeni özellik ekleyin bunun içerisine. Ya bunu da işte Claude Code'da yapabilirsiniz.
+
+01:27:19.000 --> 01:27:28.000
+Aslında bir tane frontend çalıştırmak, yani fakat o asistandan sonra coding agent değil,
+
+01:27:28.000 --> 01:27:37.000
+kendi istediğiniz bir proje olsun. Seyahat uygulaması olabilir, farklı bir şeyler olabilir, web sitesi falan gibi.
+
+01:27:37.000 --> 01:27:45.000
+Tool'lar ekleyebilirsiniz. Böyle bir agent oluşturun. O kodu da bir depoya koyun.
+
+01:27:45.000 --> 01:27:57.000
+Repo linkini paylaşın, bir bakalım. Ödevi bu.
+
+01:27:57.000 --> 01:28:12.000
+Yani bugün yaptığımızı biraz değiştireceksiniz. Coding agent'ın yerine başka ilginç bir şey olacak, birkaç tane yeni tool ekleyeceksiniz içerisine, bu kadar. Onu bir GitHub reposuna koyacaksınız, linkini yollayacaksınız.
+
+01:28:12.000 --> 01:28:18.000
+Bu arada form, ödev işte ulaşmadı, bunların hepsini Discord'dan yazabilirsiniz.
+
+01:28:18.000 --> 01:28:23.000
+Oradan cevap veririz.
+
+01:28:23.000 --> 01:28:28.000
+Evet, deyip stop yapabiliriz.
+
+01:28:28.000 --> 01:28:35.000
+Evet arkadaşlar, teşekkür ederim katıldığınız için. Soru cevap biraz yapabiliriz vakti olanlarla.
+
+01:28:35.000 --> 01:28:36.000
+Vakti olanlarla.
+
+01:28:36.000 --> 01:28:48.000
+Hocam, videoyu mesela yayınlasanız, biz sonra tekrar gelip kendi projemizde uygulayabiliriz, olur mu?
+
+01:28:48.000 --> 01:28:49.000
+Tamam.
+
+01:28:49.000 --> 01:28:51.000
+Adımları takip edip yaparsınız zaten. Ben projeyi paylaşacağım zaten.
+
+01:28:51.000 --> 01:28:52.000
+Tamam, teşekkür ederim.
+
+01:28:52.000 --> 01:29:00.000
+Yani videoyu o yüzden paylaşmıyorum. Şimdi, burada bir sürü arkadaş zaten kamera açık sorular soruyor, özel şeyler oluyor.
+
+01:29:00.000 --> 01:29:05.000
+O yüzden paylaşmak istemiyorum. Paylaşırsam bu sefer kimse ne katılım sağlar, ne soru sorar, ne katılımda bulunur.
+
+01:29:05.000 --> 01:29:12.000
+Ama bu videoları böyle bir not defteri ile falan, derse dönüştürme, transcript olarak onları,
+
+01:29:12.000 --> 01:29:25.000
+yapabiliriz. Yani, eğer vakti olan varsa içinizde, o videoyu böyle paylaşırım ben. Ama onu böyle bir hale getirmek biraz emek ister.
+
+01:29:25.000 --> 01:29:31.000
+Bilen biri bana Discord'dan yazarsa, ben size onu paylaşırım.
+
+01:29:31.000 --> 01:29:32.000
+Oradan bir kahve ısmarlarım.
+
+01:29:32.000 --> 01:29:34.000
+Emine Hanım yapabilirim ben diyor hocam.
+
+01:29:34.000 --> 01:29:40.000
+Tamam, ilgilenenler bana Discord'dan yazsın. Birkaç kişi çalışalım bunları, böyle bir YouTube videosu ders,
+
+01:29:40.000 --> 01:29:49.000
+not haline getirelim, belki ders notu, YouTube videosu olur, oradan paylaşırız.
+
+01:29:49.000 --> 01:29:56.000
+Şimdi, mesela bu hafta, geçen hafta sunum ve konuşma vardı, mesela onun video haline getirilmesi biraz daha farklı,
+
+01:29:56.000 --> 01:30:07.000
+daha kolay olabilir. Ama burada şimdi devamlı live coding var, yani ekranda bir sürü şey vardı. Bu mesela biraz daha farklı.
+
+01:30:07.000 --> 01:30:10.000
+Evet, böyle live olması, açıklayıcı oldu mu?
+
+01:30:10.000 --> 01:30:18.000
+Yani şöyle düşündüm, YouTube'da Claude Code ile alakalı bir sürü video var.
+
+01:30:18.000 --> 01:30:26.000
+Tek tek özellikleri anlatıyorlar, şu özellik şu işe yarar falan diye. Ama böyle ihtiyaç oldukça kullanmak biraz daha bana farklı geldi.
+
+01:30:26.000 --> 01:30:29.000
+Buyurun Asım Bey.
+
+01:30:29.000 --> 01:30:37.000
+Hocam, ben aslında biraz başka bir şey, yine ders içinde ders gibi. Teşekkür ederim, benim için güzel oldu, birleşik oldu.
+
+01:30:37.000 --> 01:30:41.000
+Ben normalde kullanmıyordum aslında bir proje üzerinde hem Codex'i hem Claude'u.
+
+01:30:41.000 --> 01:30:50.000
+Beraber kullanabilmek, ikisini böyle birbirinden ayrı şekilde karşılaştırmak güzel oldu, bence çok öğretici oldu.
+
+01:30:50.000 --> 01:30:58.000
+Sağolun. Benim aslında biraz kişisel bir sorum var. Şimdi şöyle bir proje üzerinde çalışıyorum, bizim müşterimiz var.
+
+01:30:58.000 --> 01:31:03.000
+Sormam uygun mu, önce ona sorayım.
+
+01:31:03.000 --> 01:31:10.000
+Buyurun. Ben bu arada formu paylaştım, Abdullah Bey, herkese gönderildi mi?
+
+01:31:10.000 --> 01:31:13.000
+Kayıt hala devam ediyor galiba.
+
+01:31:13.000 --> 01:31:16.000
+Evet, Discord'dan. Kaydı kapatalım mı?
+
+01:31:16.000 --> 01:31:18.000
+Olabilir canım.
+
+01:31:18.000 --> 01:31:22.000
+Hadi.

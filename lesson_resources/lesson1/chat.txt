@@ -1,0 +1,42 @@
+08:25:41	 From Sinan : Paradigma ilk defa değişmiyor ama bu sefer degisim cok hızlı.
+08:32:52	 From Sinan : (film, Hidden Figures, 2017) Nasa’da calisan Human Computers 3 afro American kadinin hikayesi
+08:32:53	 From Bedir : interpreter
+08:33:20	 From Ekrem : Reacted to "(film, Hidden Figure..." with 👍
+08:33:28	 From Ekrem : Replying to "(film, Hidden Figure..."
+
+Guzel bir film
+08:33:53	 From Mikail D : Reacted to "Guzel bir film" with ❤️
+08:34:38	 From Bulent : Walkman to iPod
+08:35:45	 From Sinan : Rolex bugün hala neredeyse tamamen mekanik saatler üretmeye devam ediyor
+08:35:50	 From Bulent : *walkman
+08:36:12	 From Yousef K : Diskman
+08:36:46	 From Ali K. : Nokia
+08:37:12	 From Mehmet Kaymak : Airbnb — hotel business
+08:37:36	 From Omer : waymo
+08:38:54	 From Emine : Bu sefer AI ile tek bir meslek alani degil tum meslek alanlari donusuyor ve aslinda o hissedilen is kaybetme tehdidi daha genis capli hissediliyor.
+08:43:38	 From Asim Levent Arici : Kod yazmak cok keyifli olmayabilir ama güzel bir gelir kaynağı idi 🙂 Ayni parayı kazanmak baska alanlarda daha zor benim tecrubeme gore.
+08:44:55	 From Taner Öztaş : yeni müfredatı ben yazsam; yinede ilk sömestr'e  algoritma ve C bir arada veren bir ders koymayi düsünürdüm. :)
+08:52:28	 From Sinan : Bence AI çağında sadece kod bilenler değil, insanı anlayanlar da çok öne çıkacak. Çünkü AI sistemleri artık sadece teknik araçlar değil; insanla konuşuyor, karar destekliyor, öneri veriyor, değerlendiriyor ve bazen davranışları etkiliyor. 
+Bu yüzden sosyal bilimler background’u olan insanlar da çok başarılı olabilir. Az biraz kod mantığını öğrenirlerse, şansları bence çok daha büyük.
+08:53:14	 From Sinan : AI Trust Engineer da yeni bir role olabilir.
+08:54:31	 From Sinan : Iyi yazilimci Ai a en iyi kod yazdırabilir ama
+08:59:22	 From Google Pixel 10 Pro XL : Hocam slm lar, AI in yakıtı Big Data ve bu data yığını insan tarafından üretildi. AI bu datayi kullanarak yeni ve özgün bi data yığını oluşturuyor mu? Insanların olması/durması gereken yer bu üretim sürecinde bundan sonra ne olur?
+09:05:53	 From Bulent : Technical debt generation
+09:26:04	 From Bulent Keskin : Prompt/Context Engineering
+09:29:50	 From Yasin Aydinbas : Bittorrent
+09:30:39	 From Sinan : AI iyi is cikarmadiginda/cikaramadiginda da yüzde yüz olmasa da suclu/sorumlu yine insan
+09:32:36	 From Bulent Keskin : Reacted to "AI iyi is cikarmadig..." with 💯
+09:45:42	 From Asim Levent Arici : 500 tokens?
+09:48:56	 From Bulent Keskin : Garbage in, garbage out
+09:52:40	 From Mehmet Ozbilgin : Hocam acaba slide’lari paylasacak miydiniz?
+09:54:54	 From Asim Levent Arici : Bunu daha once yapmadim ama öğrenip yapabilirim eğer volunteer yoksa.
+09:57:01	 From Omer : bende $20 da hala claude code aktif
+09:57:30	 From Gursev : claude upgrade $17 gorunuyor; limit cabuk mu doluyor?
+09:57:57	 From Omer : evet pro plan cok hizli doluyor
+10:00:50	 From Sergazy Nur : Arkadaslar, Codex den cok memnunum, limiti cok cok iyi claude code gore, denemek isterseniz. Bide fast mode u cok hosuma gidiyor cok hizli yapiyor claude code gore.
+10:01:26	 From Mikail D : Reacted to "Arkadaslar, Codex de..." with 👍
+10:02:45	 From Bedir : Windsurf'un de ekonomik acidan Cascade adli agent coding araci gercekten iyi. 20$
+10:11:26	 From Abdullah Karaman : Tesekkurler hocam. haftaya gorusmek uzere.
+10:13:52	 From Memet Avci : bir sonraki kurs haftaya mi
+10:13:58	 From sahinde dogruer : tesekkurler
+10:14:11	 From Abdullah Ficici : Teşekkürler
