@@ -28,6 +28,9 @@ pip install -r requirements.txt
 
 # Uygulamayı çalıştır (http://localhost:5000)
 flask --app app run --debug
+
+# Testleri çalıştır
+python3 -m pytest
 ```
 
 `.env` dosyasında `OPENAI_API_KEY` tanımlı olmalıdır.
@@ -49,10 +52,13 @@ Flask backend + vanilla JS frontend. Üç ayrı sayfa sunar:
 - **`app.py`** — Flask uygulaması. Routing, model doğrulaması, asistan ve agent oturum yönetimi.
 - **`llm.py`** — OpenAI istemcisi kurulumu ve `stream_llm()` fonksiyonu. Tek seferlik, history'siz.
 - **`asistan.py`** — `Asistan` sınıfı. Conversation history tutan, `sohbet()` ve `stream_sohbet()` metodları.
-- **`agent.py`** — `Agent` sınıfı. Tool-calling agentic loop; `calistir()` generator'ı her adımda event dict'i yield eder. Tool'lar: `terminal`, `dosya_oku`, `dosya_yaz`.
+- **`agent.py`** — `Agent` sınıfı. Tool-calling agentic loop; `calistir()` generator'ı her adımda event dict'i yield eder. Built-in tool'lar: `terminal`, `dosya_oku`, `dosya_yaz`; ek tool'lar `backend/tools` registry'sinden alınır.
+- **`backend/tools/__init__.py`** — Agent için `TOOL_DEFINITIONS` ve `TOOL_FUNCTIONS` registry'si.
+- **`backend/tools/text_analyzer.py`** — `analyze_text` tool'u. Metin için kelime, cümle, karakter ve temel uzunluk istatistikleri döndürür.
 - **`frontend/index.html`** — LLM arayüzü. Tek prompt → tek yanıt.
 - **`frontend/asistan.html`** — Sohbet arayüzü. Baloncuklu, çok turlu, session tabanlı.
 - **`frontend/agent.html`** — Agent arayüzü. Her adımı, tool call'ları, sonuçlarını ve thinking text'ini görsel olarak gösterir.
+- **`tests/`** — `pytest` testleri. Tool registry, `analyze_text`, agent tool execution ve temel Flask validation davranışlarını kapsar.
 
 ### LLM Arayüzü Veri Akışı
 
@@ -74,7 +80,7 @@ Flask backend + vanilla JS frontend. Üç ayrı sayfa sunar:
 1. `frontend/agent.html` → `POST /api/agent/yeni` (model, system_instructions) → `session_id` döner
 2. `frontend/agent.html` → `POST /api/agent/calistir` (session_id, user_prompt)
 3. `app.py` → `_agentlar[session_id].calistir()` generator'ını iter eder
-4. `agent.py` → OpenAI tool-calling API → her event için JSON satırı yield eder (NDJSON)
+4. `agent.py` → OpenAI tool-calling API → built-in tool'lar ve `backend/tools` registry'sindeki `analyze_text` dahil her tool call'u çalıştırır
 5. Frontend NDJSON satırlarını parse eder; event tipine göre (`step_start`, `thinking`, `tool_call`, `tool_result`, `text`, `done`) görsel bloklar oluşturur
 
 ### API Endpoint'leri
@@ -94,4 +100,5 @@ Flask backend + vanilla JS frontend. Üç ayrı sayfa sunar:
 - `_asistanlar` ve `_agentlar` dict'leri sunucu hafızasındadır; sunucu yeniden başlatılınca tüm oturumlar sıfırlanır.
 - Asistan yanıtları `text/plain`, agent yanıtları `application/x-ndjson` olarak stream edilir.
 - Agent terminal tool'u `/tmp/agent_workspace` dizininde çalışır; `shell=True` ile arbitrary komut çalıştırır (eğitim ortamı, localhost).
+- Yeni agent tool'u eklerken `backend/tools/` altında ayrı `.py` dosyası oluştur, sonra `backend/tools/__init__.py` içindeki `TOOL_DEFINITIONS` ve `TOOL_FUNCTIONS` registry'lerine kaydet.
 - Agent `thinking` event'i: model tool çağrısından önce metin üretirse bu `thinking` olarak işaretlenir; son yanıt `text` olarak işaretlenir.

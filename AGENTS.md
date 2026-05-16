@@ -25,17 +25,26 @@ app.py                  # Flask uygulaması; routing, doğrulama, oturum yöneti
 llm.py                  # OpenAI istemcisi; hafızasız stream_llm() fonksiyonu
 asistan.py              # Asistan sınıfı; conversation history + stream_sohbet()
 agent.py                # Agent sınıfı; tool-calling agentic loop + calistir() generator
+backend/
+  __init__.py           # Backend package işaretçisi
+  tools/
+    __init__.py         # Agent TOOL_DEFINITIONS ve TOOL_FUNCTIONS registry'si
+    text_analyzer.py    # analyze_text aracı; metin istatistikleri üretir
 frontend/
   index.html            # LLM arayüzü: tek seferlik prompt/yanıt sayfası
   asistan.html          # Asistan arayüzü: çok turlu, baloncuklu sohbet sayfası
   agent.html            # Agent arayüzü: tool call'ları ve adımları görsel gösterim
+tests/
+  test_agent_tool_execution.py  # Agent tool-call akışını sahte OpenAI yanıtlarıyla test eder
+  test_app_validation.py        # Flask validation davranışlarını test eder
+  test_text_analyzer_tool.py    # analyze_text ve registry testleri
 requirements.txt        # Python bağımlılıkları
 .env                    # Yerel sırlar (commit edilmez); OPENAI_API_KEY buraya
 CLAUDE.md               # Claude Code'a mimari rehberlik
 AGENTS.md               # Bu dosya; geliştirici ve ajan kuralları
 ```
 
-Backend routing ve doğrulama `app.py`'de kalır. Provider'a özgü LLM çağrıları `llm.py`, `asistan.py` veya `agent.py`'de kalır. Statik dosyalar `frontend/` altına eklenir.
+Backend routing ve doğrulama `app.py`'de kalır. Provider'a özgü LLM çağrıları `llm.py`, `asistan.py` veya `agent.py`'de kalır. Agent tool'ları `backend/tools/` altında ayrı dosyalara eklenir ve `backend/tools/__init__.py` içindeki `TOOL_DEFINITIONS` ile `TOOL_FUNCTIONS` registry'lerine kaydedilir. Statik dosyalar `frontend/` altına eklenir.
 
 ---
 
@@ -58,7 +67,17 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 flask --app app run --debug   # http://127.0.0.1:5000
+python3 -m pytest
 ```
+
+---
+
+## Bağımlılıklar
+
+- `flask`: Backend routing ve HTTP response streaming.
+- `openai`: LLM ve tool-calling API istemcisi.
+- `python-dotenv`: Yerel `.env` dosyasından `OPENAI_API_KEY` yükleme.
+- `pytest`: Otomatik test suite.
 
 ---
 
@@ -73,11 +92,11 @@ flask --app app run --debug   # http://127.0.0.1:5000
 
 ## Test Kılavuzu
 
-Otomatik test suite mevcut değil. Test eklenecekse:
+Otomatik test suite `tests/` altında mevcuttur:
 
-- `tests/` dizini oluştur, `pytest` kullan.
-- Dosyaları `test_*.py` olarak adlandır.
-- Öncelikli test alanları: Flask route doğrulama, `ALLOWED_MODELS` kontrolü, streaming hata yönetimi, asistan history doğruluğu.
+- Yeni testleri `tests/` altında, `test_*.py` adlandırmasıyla ekle.
+- `pytest` kullan; gerçek OpenAI çağrılarını testlerde mock/fake nesnelerle izole et.
+- Öncelikli test alanları: Flask route doğrulama, `ALLOWED_MODELS` kontrolü, streaming hata yönetimi, asistan history doğruluğu ve agent tool registry entegrasyonu.
 
 ```sh
 pytest

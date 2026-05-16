@@ -3,11 +3,12 @@ import os
 import subprocess
 from typing import Iterator
 
+from backend.tools import TOOL_DEFINITIONS, TOOL_FUNCTIONS
 from llm import client
 
 AGENT_WORKSPACE = "/tmp/agent_workspace"
 
-TOOLS = [
+BUILTIN_TOOLS = [
     {
         "type": "function",
         "function": {
@@ -56,6 +57,8 @@ TOOLS = [
     },
 ]
 
+TOOLS = [*BUILTIN_TOOLS, *TOOL_DEFINITIONS]
+
 
 def _terminal(command: str) -> str:
     os.makedirs(AGENT_WORKSPACE, exist_ok=True)
@@ -100,7 +103,21 @@ _TOOL_MAP = {
     "terminal": lambda a: _terminal(a["command"]),
     "dosya_oku": lambda a: _dosya_oku(a["yol"]),
     "dosya_yaz": lambda a: _dosya_yaz(a["yol"], a["icerik"]),
+    **TOOL_FUNCTIONS,
 }
+
+
+def _execute_tool(name: str, args: dict) -> str:
+    fn = _TOOL_MAP.get(name)
+    if not fn:
+        return f"Bilinmeyen araç: {name}"
+
+    try:
+        return fn(args)
+    except KeyError as e:
+        return f"Hata: Eksik araç argümanı: {e.args[0]}"
+    except Exception:
+        return "Hata: Araç çalıştırılırken bir sorun oluştu."
 
 
 class Agent:
@@ -177,8 +194,7 @@ class Agent:
 
                 yield {"type": "tool_call", "name": name, "args": args}
 
-                fn = _TOOL_MAP.get(name)
-                result = fn(args) if fn else f"Bilinmeyen araç: {name}"
+                result = _execute_tool(name, args)
 
                 yield {"type": "tool_result", "name": name, "result": result}
 
